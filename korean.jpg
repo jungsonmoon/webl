@@ -1,0 +1,5002 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="ko">
+<head>
+<meta name="robots" content="noindex, nofollow" />
+<meta http-equiv="Content-Type" content="text/html;charset=KSC5601">
+<meta http-equiv="X-UA-Compatible" content="requiresActiveX=true">
+<title>..</title>
+
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?2" />
+<meta name="referrer" content="always" />
+<link rel="stylesheet" href="/static/css/main/css/mycafe-common-1554204062000-67201.css" type="text/css">
+
+<link rel="stylesheet" href="/static/css/main/css/mycafe-layout-1555296995000-81534.css" type="text/css">
+
+<link rel="stylesheet" href="/static/css/main/css/mycafe-main-1555475082000-244591.css" type="text/css">
+
+<link rel="stylesheet" href="/static/css/main/css/widget-1545208501000-14621.css" type="text/css">
+
+<link rel="stylesheet" href="/static/css/main/css/line_sticker-1545208501000-9453.css" type="text/css">
+
+<link rel="stylesheet" href="/static/css/main/css/comment-1551787902000-17198.css" type="text/css">
+
+<link rel="stylesheet" href="/static/css/main/css/moz_fix-1545208501000-1454.css" type="text/css">
+
+<link rel="stylesheet" href="/static/css/main/css/map/cafe_map-1545208501000-14563.css" type="text/css">
+
+
+
+
+
+
+<style id="cafeCss" type="text/css">
+/*sub*/
+body {background-color: #ffffff;background-image: none;background-repeat: repeat;}
+
+#main-area select,#main-area textarea,#main-area .list-search input {
+	background-color: #ffffff;
+	border: 1px solid #e5e5e5 !important;
+}  /*body backgroundcolor input000*/
+#main-area .border-sub {
+	border-color: #e5e5e5;
+}  /* 333 list-line*/
+#main-area .board-line {
+	background-color: #e5e5e5;
+}  /* 333 list-line*/
+#main-area .board-text {
+	color: #e5e5e5;
+}
+
+#main-area .cafebook-line {
+	background-color: #3CA4AD;
+}
+
+#main-area .skin-bgcolor {
+	background-color: #ffffff;
+	background-image: none;
+	background-repeat: repeat;
+}
+
+#main-area #sub-tit {
+	background-image:
+		url(https://cafe.pstatic.net/style/s02_04/sub-tit-bg.gif);
+}
+
+#main-area .sub-tit-bottom {
+	background-image:
+		url(https://cafe.pstatic.net/style/s02_04/sub-tit-bg.gif);
+}
+
+#main-area .bg-color {
+	background-color: #f9f9f9;
+}
+
+#main-area .sub-tit-color {
+	color: #ff1e1e
+}
+
+#main-area .list-tab li.selected {
+	background-color: #ffffff;
+}  /*body backgroundcolor*/
+#main-area .btn span {
+	background-image: url(https://cafe.pstatic.net/style/s02_04/btn-bg.gif)
+		;
+}
+
+#main-area .btn p {
+	background-image: url(https://cafe.pstatic.net/style/s02_04/btn-bg.gif)
+		;
+}
+
+#main-area .btn2 span {
+	background-image: url(https://cafe.pstatic.net/style/s02_04/btn-bg2.gif)
+		;
+}
+
+#main-area .btn2 p {
+	background-image: url(https://cafe.pstatic.net/style/s02_04/btn-bg2.gif)
+		;
+}
+
+#main-area
+.btn_wide span{background-image:url(https://cafe.pstatic.net/style/s02_04/btn_wide.gif)}
+#main-area
+.btn_wide p{background-image:url(https://cafe.pstatic.net/style/s02_04/btn_wide.gif)}
+#main-area
+.btn_scroll{background-image:url(https://cafe.pstatic.net/style/s02_04/btn_scroll.gif)}
+
+#cafe-footer {
+	border-top-color: #e5e5e5;
+}  /* 333 list-line*/ /*sub*/
+#cafe-body-skin {
+	background-image: none;
+	background-position: 0 0;
+}  /*skin-background*/
+#cafe-icoinfo .tcol-c {
+	color: #666666;
+}  /*222*/
+#required-notice .notice {
+	color: #666666;
+}  /*222*/
+#front-cafe a {
+	color: #666666;
+}  /*222*/
+#group-box-area input {
+	background-color: #ffffff !important;
+}  /*body backgroundcolor*/
+#linked-member .group-list {
+	background-color: #EFEFEF;
+	border-color: #BEBEBE;
+}  /*body backgroundcolor input000 */ /*gnb-menu */
+#gnb-menu a, #gnb-menu .view_mobile, #gnb-menu a.gnb_my .gnb_name {
+	color: #666666;
+}  /*222*/
+#gnb-menu img.tcol-c {
+	background-color: #666666;
+}  /*222*/
+#gnb-menu .up-gnb, #gnb-menu .gnb_my_li.gnb_lyr_opened .gnb_my_namebox {
+	background-image:
+		url(https://cafe.pstatic.net/style2014/s02_04/btn-up-gnb.png)
+}
+
+#gnb-menu .down-gnb, #gnb-menu .gnb_my_li .gnb_my_namebox {
+	background-image:
+		url(https://cafe.pstatic.net/style2014/s02_04/btn-down-gnb.png)
+}
+
+#gnb-menu .logout {
+	background-image:
+		url(https://cafe.pstatic.net/style/s02_04/btn-logout.gif)
+}
+
+#gnb-menu .login {
+	background-image:
+		url(https://cafe.pstatic.net/style2014/s02_04/btn-login.png)
+}
+
+/* Naver GNB Icon */
+#gnb-menu .gnb_service_li a.gnb_service .gnb_icon {
+    background-image:
+    url(https://cafe.pstatic.net/style2014/s02_04/btn-service-gnb.png);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=https://cafe.pstatic.net/style2014/s02_04/btn-service-gnb.png);_background:none;
+}
+
+/* Naver GNB Login Button */
+#gnb-menu .gnb_bg{
+    background-color:#ffffff;
+}
+
+#gnb-menu .gnb_bdr{
+    border-color:#bebebe;
+}
+
+#gnb-menu .gnb_txt{
+    color:#666666;
+}
+
+/*widget sub*/
+#content-area .tcol-c {
+	color: #666666;
+}  /* ccc txt-contents*/
+#content-area .tcol-t {
+	color: #333333;
+}  /*txt-title*/
+#content-area .tcol-p {
+	color: #ff4836;
+}  /*txt-point*/
+#content-area .group-list li img.tcol-c {
+	background-color: #666666;
+}  /* ccc img_ico*/
+#content-area .group-mlist-line {
+	background-color: #666666;
+}  /* ccc line*/
+#content-area .group-border {
+	border-color: #666666;
+}  /* ccc line*/
+#content-area .box-w {
+	background-color: #f9f9f9;
+}  /*background =reply-bg =banner-border*/
+#content-area .group-tit h4 {
+	padding-top: 0;
+	background-image:
+		url(https://cafe.pstatic.net/style/s02_04/ico-widget-tit.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}  /*tit*/
+#content-area .group-tit p {
+	padding-top: 0;
+}
+
+#content-area .member-reload {
+	background-image:
+		url(https://cafe.pstatic.net/style/s02_04/btn-reload.gif);
+}
+
+#content-area .member-up {
+	background-image:
+		url(https://cafe.pstatic.net/style/s02_04/btn-up-reload.gif);
+}
+
+#content-area .member-down {
+	background-image:
+		url(https://cafe.pstatic.net/style/s02_04/btn-down-reload.gif);
+}
+
+#content-area .design-input {
+	background-color: #EFEFEF;
+	border-color: #BEBEBE;
+}  /*body backgroundcolor input000*/
+#content-area .widget-search {
+	background-image:
+		url(https://cafe.pstatic.net/style/s02_04/btn_widget_search.gif);
+}
+
+#ad-banner .linebox {
+	border-color: #f9f9f9;
+}  /*background =reply-bg =banner-border*/
+#cafe-footer .m-tcol-c {
+	color: #666666;
+}  /* 000 txt-contents*/
+#cafe-footer .m-tcol-p {
+	color: #ff1e1e;
+}  /*txt-point*/
+#main-area .con_link {
+	color: #666666;
+} /* 000 txt-contents*/
+
+.list-style .srch_tx{padding:6px 0 0 19px;background:url(https://cafe.pstatic.net/style2014/ic_noti.png) no-repeat 0 5px;color:#666;font-size:13px;font-weight:bold;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=https://cafe.pstatic.net/style2014/ic_noti.png);_background:none;letter-spacing:-1px}
+
+.list-btn-view{clear:both;height:67px}
+
+.list-btn-view .btn_link{float:right;margin-top:12px;padding-right:6px;background:url(https://cafe.pstatic.net/style2014/ico_arr2.gif) no-repeat 100% 4px;font-size:13px;font-weight:bold;color:#666;letter-spacing:-1px;text-decoration:none}
+
+
+
+
+#cafe-footer .cafe-name {display:block;}
+#cafe-footer p {font-size:12px;font-family:dotum !important;}
+#cafe-footer span {font-weight:bold;}
+#cafe-footer .m-tcol-c {font-size:12px;font-family:dotum !important;color:;}
+#cafe-footer .m-tcol-p {font-weight:bold;color:;}
+
+
+
+
+
+
+
+
+#cafe-menu .gm-tcol-c {color:#666666;}
+#cafe-menu .gm-tcol-t {color:#3ca4ad;}
+#cafe-menu .gm-tcol-p {color:#3ca4ad;}
+#cafe-menu .box-g-t {height:6px;background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/menu-bg-t.gif);}
+#cafe-menu .box-g-m {padding-top:0;padding-bottom:5px;background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/menu-bg-m.gif);}
+#cafe-menu .box-g-b {height:6px;background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/menu-bg-b.gif);}
+#cafe-menu .cafe-menu-tit {width:165px;height:27px;margin-top:0;margin-bottom:3px;background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/menu-bg-tit.gif);}
+#cafe-menu .cafe-menu-tit h3 {margin-top:10px;margin-left:11px;}
+#cafe-menu .cafe-menu-tit p {margin-top:8px;margin-right:5px;}
+#cafe-menu .cafe-menu-tit.frst{background-image:none;}
+#cafe-menu .cafe-menu-tit .up-btn {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/btn-up-menu.gif);}
+#cafe-menu .cafe-menu-tit .down-btn {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/btn-down-menu.gif);}
+#cafe-menu .cafe-menu-space {height:2px;margin-top:0;margin-right:3px;margin-bottom:0;margin-left:3px;border-top-style:solid;border-top-width:1px;border-color:#e7e7e7;}
+#cafe-menu .cafe-menu-list {margin-top:6px;margin-left:15px;margin-right:8px;}
+#cafe-menu .ico-list {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico-m-list.gif);}
+#cafe-menu .ico-attendance {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico-m-attendance.png);}
+#cafe-menu .ico-best {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico-m-best.gif);}
+#cafe-menu .ico-link {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico-m-link.gif);}
+#cafe-menu .ico-memo {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico-m-memo.gif);}
+#cafe-menu .ico-photo {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico-m-photo.gif);}
+#cafe-menu .ico-picture {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico-m-picture.gif);}
+#cafe-menu .ico-tag {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico-m-tag.gif);}
+#cafe-menu .ico-kin {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico-m-kin.gif);}
+#cafe-menu .ico-indent {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico-m-indent.gif);}
+#cafe-menu .ico-simple {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico-m-simple.png);}
+#cafe-menu .ico-map {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico-m-map.png);}
+#cafe-menu .ico-live {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico-m-live.png);}
+#group-area .cafe-info-action .border-sub {border-color: #e5e5e5;}
+#group-area .cafe-info-action .gm-tcol-c {color:#666666;}
+#group-area .cafe-info-action .gm-tcol-t {color:#3ca4ad;}
+#group-area .cafe-info-action .gm-tcol-p {color:#ff1e1e;}
+#group-area .cafe-info-action .box-g {padding:0 0 12px 0;background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/bg_info_action.gif);}
+#group-area .cafe-info-action .info-action-tab li a {color:#fff;}
+#group-area .cafe-info-action .info-action-tab li p {margin:12px 0 0 5px;color:#3ca4ad;}
+#group-area .cafe-info-action .info-action-tab li {height:37px;}
+#group-area .cafe-info-action .info-action-tab li.tit-info {width:71px;padding-right:0;padding-left:0;background:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/tab_group.gif);text-align:center;}
+#group-area .cafe-info-action .info-action-tab li.tit-info-on {width:71px;padding-right:0;padding-left:0;background:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/tab_group_on.gif);text-align:center;}
+#group-area .cafe-info-action .info-action-tab li.tit-action {width:68px;padding-right:0;padding-left:0;background:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/tab_group2.gif);text-align:center;}
+#group-area .cafe-info-action .info-action-tab li.tit-action-on {width:68px;padding-right:0;padding-left:0;background:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/tab_group2_on.gif);text-align:center;}
+#group-area .cafe-info-action .info-action-tab li.tit-bookmark {width:27px;height:34px;padding:3px 3px 0 2px;background:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/tab_group3.gif) no-repeat  0 0;}
+#group-area .cafe-info-action .info-action-tab li.tit-bookmark img {width:27px !important;height:28px !important;margin:0;vertical-align:middle;}
+#group-area .cafe-info-action .info-action-tab li.tit-bookmark .btn-bookmark-on {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/btn_bookmark_on.png);_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=https://cafe.pstatic.net/design/menubox/menubox-309-1/btn_bookmark_on.png);_background-image:none;}
+#group-area .cafe-info-action .info-action-tab li.tit-bookmark .btn-bookmark-off {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/btn_bookmark_off.png);_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=https://cafe.pstatic.net/design/menubox/menubox-309-1/btn_bookmark_off.png);_background-image:none;}
+#group-area .cafe-info-action .ia-action-data {width:163px;height:50px;border-color:#e5e5e5;border-bottom-style:solid;}
+#group-area .cafe-info-action .ia-action-data ul {margin:10px 0 0 10px;}
+#group-area .cafe-info-action .ia-action-data .grade {width:66px;padding-right:10px;}
+#group-area .cafe-info-action .ia-info-data {width:163px;border-color:#e5e5e5;border-bottom-style:solid;}
+#group-area .cafe-info-action .ia-info-data ul {margin:7px 0 1px 10px;}
+#group-area .cafe-info-action .ia-info-data ul .info-view {padding-right:10px;}
+#group-area .cafe-info-action .ia-info-data li .mlink {width:122px;}
+#group-area .cafe-info-action .ia-info-data .cafe-admin .ico-admin {background:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico_admin.gif) no-repeat;}
+#group-area .cafe-info-action .ia-info-data .cafe-admin .ico-stat {background:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico_stat.gif) no-repeat;}
+#group-area .cafe-info-action .ia-info-data2 {width:163px;border-color:#e5e5e5;border-bottom-style:solid;}
+#group-area .cafe-info-action .ia-info-data2 .ico_lock{background:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico_lock.gif);}
+#group-area .cafe-info-action .ia-info-data2 .level-info {width:81px;}
+#group-area .cafe-info-action .ia-info-data2 .mem-cnt-info{width:80px;}
+#group-area .cafe-info-action .ia-info-data2 .mem-cnt-info .ico {background:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico_cnt_mem.gif);}
+#group-area .cafe-info-action .ia-info-data3 {width:163px;margin:11px auto 7px;}
+#group-area .cafe-info-action .ia-info-data3 ul {margin:0 8px 0 10px;}
+#group-area .cafe-info-action .ia-info-data3 .ico_bkmk{background:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico_cnt_bkmk.gif);}
+#group-area .cafe-info-action .ia-info-data3 .ico_bkmk2 {background:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico_cnt_bkmk2_20111028.gif);}
+#group-area .cafe-info-action .ia-info-data3 .ico_mbl {background:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico_cnt_mbl.gif);}
+#group-area .cafe-info-action .ia-info-data3 .ico_vst {background:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico_cnt_vst.gif);}
+#group-area .cafe-info-action .ia-info-data3 .ico_wrt {background:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico_cnt_wrt.gif);}
+#group-area .cafe-info-action .ia-info-data3 .ico_cmt {background:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico_cnt_cmt.gif);}
+#group-area .cafe-info-action .ia-info-btn {height:30px;margin:0 4px;padding-top:3px;border-top:1px solid #e5e5e5;}
+#group-area .cafe-info-action .ia-action-link {height:25px;border-style:solid;}
+#group-area .cafe-info-action .ia-action-link .bar {margin:0 -12px 0 2px;}
+#group-area .cafe-info-action .tab-up {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/btn-up-tab.gif);}
+#group-area .cafe-info-action .tab-down {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/btn-down-tab.gif);}
+#group-area .cafe-info-action .tab-upc {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/btn-up-tabc.gif);}
+#group-area .cafe-info-action .tab-downc {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/btn-down-tabc.gif);}
+#group-area .cafe-info-action .btn-write {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/btn_write.png);_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=https://cafe.pstatic.net/design/menubox/menubox-309-1/btn_write.png);_background-image:none;}
+#group-area .cafe-info-action .btn-join {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/btn_join.png);_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=https://cafe.pstatic.net/design/menubox/menubox-309-1/btn_join.png);_background-image:none;}
+#group-area .cafe-info-action .cafe-join-info{position:relative;width:169px;height:26px;margin-bottom:4px;border:1px solid #bebebe;background:#f9f9f9;}
+#group-area .cafe-info-action .cafe-join-info .tcol-c {color: #666666;}
+#group-area .cafe-info-action .cafe-join-info p {border-color: #BEBEBE;}
+#group-area .cafe-info-action .cafe-join-info .tail {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ly_join_tail.gif)}
+#cafe-menu .ico-market {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico-m-market.gif);}
+#cafe-menu .ico-book {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico-m-book.gif);}
+#cafe-menu .ico-list-metoo {background:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico-list-metoo.png);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=https://cafe.pstatic.net/design/menubox/menubox-309-1/ico-list-metoo.png);_background:none;}
+#cafe-menu .ico-calendar {background:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico-m-calendart.gif);}
+#cafe-menu .ico-app {background-image:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico-m-app.gif);}
+#cafe-menu .ico-cafe-kin {background:url(https://cafe.pstatic.net/design/menubox/menubox-309-1/ico_cafe_kin.png) no-repeat;_background:none;_filter:progid:dximagetransform.microsoft.alphaimageloader(src='https://cafe.pstatic.net/design/menubox/menubox-309-1/ico_cafe_kin.png', sizingmethod='crop')}
+
+
+
+
+
+
+#main-area .m-tcol-c {color:#666666;}
+#main-area #tbody td {color:#666666;}
+#main-area #tbody th {color:#666666;}
+#main-area .m-tcol-t {color:#3ca4ad;}
+#main-area .m-tcol-p {color:#ff1e1e;}
+#main-area .board-box img.tcol-c {background-color:#666666;}
+#main-area .board-box-line {background-color:#666666;}
+#main-area .board-box-line-dashed {border-color:#666666;}
+#main-area .list-tit {height:29px;background-color:transparent;border-width:0;border-style:solid;border-color:#cccccc;background-image:url(https://cafe.pstatic.net/style/s02_04/list-tit-bg.gif);margin-right:0;}
+#main-area .list-tit .inbox {width:8px;height:29px;background-image:none;display:none;}
+#main-area .list-tit h3 {margin-top:7px;padding-left:10px;font-size:14px;background-image:none;}
+#main-area .list-tit span {margin-top:7px;margin-right:8px;background-image:url(https://cafe.pstatic.net/style/s02_04/btn-more.gif);}
+#main-area .ico-list-notice {background-image:url(https://cafe.pstatic.net/style/s02_04/ico-list-notice.gif);}
+#main-area .ico-list-recomm {background-image:url(https://cafe.pstatic.net/style/s02_04/ico-list-recomm.gif);}
+#main-area .ico-list-info {background-image:url(https://cafe.pstatic.net/style/s02_04/ico-list-info.gif);}
+#main-area .ico-list-event {background-image:url(https://cafe.pstatic.net/style/s02_04/ico-list-event.gif);}
+#main-area .ico-list-faq {background:url(https://cafe.pstatic.net/style/skin/skin_faq_s02.gif) no-repeat -81px 0;}
+#main-area .ico-recomm {background:url(https://cafe.pstatic.net/style/skin/skin_recomm_s02.gif) no-repeat -198px 0;}
+#main-area .ico-solution {background:url(https://cafe.pstatic.net/style/skin/skin_solution_s02.gif) no-repeat -195px 0;}
+#main-area .ico-question-select {background:url(https://cafe.pstatic.net/style/skin/qa_ico_s02_04.gif) no-repeat 0 0;}
+#main-area .ico-book {background-image:url(https://cafe.pstatic.net/style/s02_04/ico-m-book.gif);}
+#main-area .kin_activity_area .cnt_answer{background:url(https://cafe.pstatic.net/style/s02_04/ico_cafekin_answer.png) no-repeat;_background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=https://cafe.pstatic.net/style/s02_04/ico_cafekin_answer.png);_background:none;_filter:progid:dximagetransform.microsoft.alphaimageloader(src='https://cafe.pstatic.net/style/s02_04/ico_cafekin_answer.png', sizingmethod='crop')}
+#main-area .kin_activity_area .cnt_adopt{background:url(https://cafe.pstatic.net/style/s02_04/ico_cafekin_adopt.png) no-repeat;_background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=https://cafe.pstatic.net/style/s02_04/ico_cafekin_adopt.png);_background:none;_filter:progid:dximagetransform.microsoft.alphaimageloader(src='https://cafe.pstatic.net/style/s02_04/ico_cafekin_adopt.png', sizingmethod='crop')}
+
+
+
+
+
+
+#special-menu {background-image:url(https://cafe.pstatic.net/style/s02_04/sepcial-menu-bg.gif);background-color:transparent;border-width:0;border-color:#cccccc;border-style:solid;}
+#special-menu .box-special-menu {height:35px;}
+#special-menu .special-menu {width:910px;overflow:hidden;position:relative;margin-left:10px;}
+#special-menu .special-menu li.default {margin-left:0;height:35px;background-image:url(https://cafe.pstatic.net/style/s02_04/sepcial-menu-line.gif);}
+#special-menu .special-menu li.selected .last {background-position:-2px;}
+#special-menu .special-menu li.selected p {padding-right:0;margin-left:0;background-position:right center;padding-left:0;margin-right:0;background-image:url(https://cafe.pstatic.net/style/s02_04/sepcial-menu-line.gif);height:35px;}
+#special-menu .special-menu li.selected {margin-right:0;background-position:right center;background-color:transparent;margin-left:0;background-image:none;}
+#special-menu .special-menu li span {display:none;color:#ffffff;margin-top:11px;}
+#special-menu .special-menu .off {margin-top:12px;margin-right:11px;margin-left:12px;color:#ffffff;}
+#special-menu .special-menu .on {padding-top:0;margin-top:12px;margin-right:11px;margin-left:12px;color:#459bb1;}
+
+
+</style>
+
+
+
+
+ <script>
+var g_sUserId = "";
+var g_sGroupId = "false";
+var g_sCafeHome = "https://cafe.naver.com/" + "nchappyclub";
+var g_sClubId = "27308868";
+var g_mobileWebLink = "https://m.cafe.naver.com/nchappyclub";
+
+var g_sCafeThumbUrl = 'https://cafethumb.pstatic.net';
+var g_sUpcafeUrl = 'https://up.cafe.naver.com';
+var g_sCafeUrl = "https://cafe.naver.com";
+var g_sCafeImgUrl = 'https://cafe.pstatic.net';
+var g_sCafeFileUrl = 'https://cafefiles.pstatic.net';
+var g_sItem2Url = 'https://item2.naver.com';
+var g_sLoginUrl = "http://nid.naver.com";
+var g_sNidHttps = 'https://nid.naver.com';
+var g_sCafeSectionUrl = "https://section.cafe.naver.com";
+var g_sNdriveHttps = "https://cloud.naver.com";
+var g_sKin = "http://kin.naver.com";
+var g_sLogOutReturnUrl = "https://nid.naver.com/nidlogin.login?mode=form&svctype=40960&id=&url=https://cafe.naver.com/LoginCheck.nhn?m=login";
+var g_sCafeChat = 'https://chat.cafe.naver.com';
+var g_sCafeTalk = 'https://talk.cafe.naver.com';
+var g_sGfmarketDomain = 'http://m.gfmarket.naver.com';
+var g_sGfmarketThumbnailDomain = 'https://storep-phinf.pstatic.net';
+var g_sPhotoInfraUploadDomain = 'cafe.upphoto.naver.com';
+var g_sDThumbUrl = 'https://dthumb-phinf.pstatic.net/?src=';
+var g_sNaverStatUiUrl = 'https://cafe.stat.naver.com/cafe';
+var g_sBAStatDomain = 'https://scv.band.us';
+
+var g_sNicknameRegex = /([a-zA-Z0-9��-�R\_\s]+)/gi;
+var g_mainIframeWidth = '773';
+</script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/jeagleeye/JEagleEyeClient-1545208501000-15956.js" charset="UTF-8"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/jindo.all-1545208501000-90818.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/cssquery-1545208501000-18676.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/jindo/common_util-1545208501000-4535.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/widget-1545208501000-2800.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/cafe_common-1545208501000-26472.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/cafe_eventutil-1545208501000-2096.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/autosourcing-1545208501000-8747.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/AjaxRequest-1545208501000-16024.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/click/clickcr-1545208501000-6201.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/lcslog-1545208501000-26709.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/tablet/TabletHandler-1545208501000-2403.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/lib/skipNavigationWebkit-1545208501000-907.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/editor/MainLocalStorage-1545369778000-1619.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/IframeHandler-1545208501000-2279.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/PowerCafeNoticeLayer-1546601018000-1880.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/lib/da/ActiveViewPC-1551787902000-8624.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+    var nsc = "cafe.mycafe";
+	var oCL = new Ju.controlLayer(); // Ju.controlLayer() Ŭ������ oCL ���� ������ �Ҵ���
+	var LH = new LH_create();
+	window.onload = LH_exec;
+
+	if (false==false) {
+		blockMouseRight();
+	}
+//--------------- Mac Safari bug --------------------------
+function controlTagClickEvent(e){
+	if(!!$Agent() && $Agent().macSafari ){
+	 	var controlTagName = ["a"];
+	 	var elTarget = e.element,
+	 		sTargetUrl = null;
+	 	if(elTarget != null ){
+	 		if(elTarget.tagName.toLowerCase() == "a" && elTarget.href+"" != document.location.href+"#"){
+	 			elTarget.target="_top";
+	 		}
+	 		return ;
+	 	}
+	}
+}
+
+(function() {
+	if(!!$Agent() && $Agent().macSafari ){
+		Event.register(window, "load", function() {
+			if($('main-area') != null){
+				Event.register($('main-area'), 'click', this.controlTagClickEvent.bindForEvent(this));
+			}
+		});
+	}
+})();
+//--------------- Mac Safari bug End --------------------------
+</script>
+
+
+
+    <meta HTTP-EQUIV="imagetoolbar" CONTENT="no" />
+
+
+
+
+<meta name="decorator" content="mycafe_main" />
+
+
+<meta http-equiv="Content-Type" content="text/html;charset=euc-kr">
+<script type="text/javascript">
+
+</script>
+
+
+<script type="text/javascript">
+	LH.add("parentResizeIframe('cafe_main')");
+</script>
+
+
+
+
+
+<script type="text/javascript">
+    function stickyEventHandler(target, topOffset) {
+        var scrollTop = jQuery(window).scrollTop();
+        var oElement = jQuery(target);
+
+        if (scrollTop >= topOffset) {
+            oElement.addClass('type_fixed');
+        } else {
+            oElement.removeClass('type_fixed');
+        }
+    }
+
+    function initSticky(target, scrollTop, topOffset) {
+        if (scrollTop >= topOffset) {
+            stickyEventHandler(target, topOffset);
+        }
+    }
+
+    function sticky(target) {
+        var scrollTop = jQuery(window).scrollTop(),
+            topOffset = jQuery(target).offset().top;
+
+        initSticky(target, scrollTop, topOffset);
+
+        jQuery(window).scroll(function () {
+            stickyEventHandler(target, topOffset);
+        });
+    }
+
+    function isPlugFloatingAdvertExposureTimeExpired() {
+        var localStorageKey = oMainLocalStorage.PC_PLUG_FLOATING_ADVERT_EXPOSURE_TIME;
+        var exposureTimeStr = oMainLocalStorage.getLocalStorage(localStorageKey);
+
+        if (exposureTimeStr == null || typeof exposureTimeStr == "undefined") {
+            return true;
+        }
+
+        try {
+            return Date.parse(exposureTimeStr) - new Date() < 0;
+        } catch(e) {
+            return true;
+        }
+    }
+
+    function updatePlugFloatingAdvertExposureTime() {
+        var currentDate = new Date();
+        var minutes = 60000;
+        oMainLocalStorage.setLocalStorage(oMainLocalStorage.PC_PLUG_FLOATING_ADVERT_EXPOSURE_TIME, new Date(currentDate.getTime() + 10 * minutes));
+    }
+
+    function clickCloseFloatingAdvert() {
+        updatePlugFloatingAdvertExposureTime();
+        var elFloatingBannerDiv = parent.document.getElementById('plugFloatingBannerWrapper');
+        elFloatingBannerDiv.style.display = 'none';
+    }
+
+    /**
+	 * floatingAdvert�� ȣ���Ѵ�. (iframe ���ΰ� reload�� ������ ȣ��)
+     */
+    function callPlugFloatingAdvert() {
+        try {
+            var cafeId = 27308868;
+
+            if (cafeId == null || typeof cafeId == "undefined") {
+                return;
+            }
+
+            if (parent.document.getElementById('plugFloatingBanner') == null) {
+                return;
+            }
+
+            var bGameDirCafe = false;
+            if (bGameDirCafe == false) {
+                return;
+            }
+
+            if (!isPlugFloatingAdvertExposureTimeExpired()) {
+                updatePlugFloatingAdvertExposureTime();
+                return;
+            }
+
+            var ajax = new Ajax("/PlugFloatingAdvert.nhn?cafeId=" + cafeId, {
+                method: "GET",
+                onLoad: function (res) {
+                    var oJsonResult = JSON.parse(res.responseText);
+                    if (oJsonResult.message.status == 200) {
+                        var elFloatingBanner = parent.document.getElementById('plugFloatingBanner');
+                        var elFloatingBannerDiv = parent.document.getElementById('plugFloatingBannerWrapper');
+                        var elFloatingBannerPvUrl = parent.document.getElementById('plugFloatingBannerPvUrl');
+                        var elFloatingBannerCloseButton = parent.document.getElementById('plugFloatingBannerCloseBtn');
+
+                        elFloatingBannerDiv.style.display = 'none';
+                        elFloatingBannerPvUrl.value = "";
+                        elFloatingBannerCloseButton.style.display = 'none';
+
+                        elFloatingBanner.style.display = 'none';
+                        elFloatingBanner.removeAttribute("src");
+                        elFloatingBanner.removeAttribute("alt");
+                        elFloatingBanner.parentNode.removeAttribute('href');
+
+                        var oAdvert = oJsonResult.message.result;
+                        if (typeof oAdvert === "undefined") {
+                            return;
+                        }
+
+                        if (oAdvert.code === 'NONE' || (oAdvert.code === 'NO_BANNER' && !oAdvert.hasOwnProperty('pvUrl'))) {
+                            return;
+                        }
+
+                        elFloatingBannerPvUrl.value = oAdvert.pvUrl;
+                        elFloatingBannerDiv.style.display = 'block';
+
+                        sticky(elFloatingBannerDiv);
+
+                        if (oAdvert.code === 'OK') {
+                            elFloatingBannerCloseButton.style.display = 'block';
+
+                            elFloatingBanner.style.display = 'block';
+                            elFloatingBanner.src = oAdvert.imageUrl;
+                            elFloatingBanner.alt = oAdvert.title;
+                            elFloatingBanner.parentNode.href = oAdvert.targetUrl;
+
+							elFloatingBanner.width = oAdvert.width;
+							elFloatingBanner.height = oAdvert.height;
+                        }
+
+                        naver_corp_da.init("plugFloatingBannerDiv", function() {
+                            document.getElementById("plugFloatingBannerPv").src = document.getElementById("plugFloatingBannerPvUrl").value;
+                        })
+                    }
+                    // 200 �ƴ� ������ ó������ ����*/
+                }
+            });
+        } catch (e) { // jeagleeye�� ����?
+        }
+    }
+
+</script>
+
+</head>
+<body class="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style data-flash-detector-css>
+.Flash_det_wrap {
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#e2e7e5;
+    width:100%;
+    height:60px;
+    font-family:'???????��????',NanumGothic, san-serif;
+    font-size:12px;
+    z-index:99999;
+}
+.Flash_det_wrap:after{
+    content:'';
+    display:block;
+    clear: both;
+}
+.Flash_det_wrap .Flash_det_play_area {
+    float:left;
+    width:28px;
+    height:28px;
+    margin:15px 0 0 15px;
+    padding:1px;
+    border:1px #d0d9cd solid;
+    background-color:#f7f7f7;
+}
+.Flash_det_wrap .Flash_det_see {
+    margin:0 8px;
+    padding:5px 15px;
+    background-color:#a3b0b3;
+    border-radius:15px 15px 15px 15px;
+    text-decoration:none;
+    color:#fff;
+    font-family:'???????��????',NanumGothic, san-serif;
+}
+.Flash_det_wrap .Flash_det_text{
+    float:left;
+    margin:0 8px 0;
+    font-weight:bold;
+    line-height:62px;
+    color:#929994;
+    font-family:'???????��????',NanumGothic, san-serif;
+}
+.Flash_det_wrap .Flash_det_nosee_area {
+    position:absolute;
+    top:25px;
+    right:20px;
+}
+.Flash_det_wrap .Flash_det_close {
+    border:0;
+    background:0;
+    margin-top:-5px;
+    vertical-align:top;
+    cursor:pointer;
+}
+</style>
+<script type="text/javascript" charset="utf-8"  src="/common/flash/chrome.flash.detect.js" data-flash-detector-for-chrome></script>
+
+<div id="u_skip">
+	<a href="#cafe-menu" onclick="var t=document.getElementById('cafe-menu');t.tabIndex=-1;t.focus();return false;" class="skip">�Խ��� ���� �ٷΰ���</a>
+	<a href="#main-area" onclick="var t=document.getElementById('main-area');t.tabIndex=-1;t.focus();return false;" class="skip">���� �ٷΰ���</a>
+	<a id="u_skipToMobileweb" href="https://m.cafe.naver.com/nchappyclub" class="skip">�� ���ټ��� ���� ������ ������ �����ϰڽ��ϱ�?</a>
+</div>
+
+
+
+
+
+
+<h1 class="d-none">NC����Ŭ��</h1>
+
+
+<div id="cafe-body-skin">
+	<div id="cafe-body">
+
+
+
+
+
+		<div id="naver-gnb">
+
+
+
+
+
+
+
+
+    <a href="http://www.naver.com" class="link_naver"><img src="https://ssl.pstatic.net/static/cafe/icon_naver.png" width="56" height="10" alt="NAVER"></a>
+
+<div id="gnb-menu">
+    <p class="naver-h" id="naver-h">
+        <a href="https://section.cafe.naver.com">ī��Ȩ</a>
+        <img src="https://cafe.pstatic.net/cafe4/ico-blank.gif" width="1" height="10" alt="" class="tcol-c">
+    </p>
+    <div id="button_join_cafe" class="join-cafe off">
+        <a href="#">����ī��</a>
+        <a href="#"><img id="joincafeimg" src="https://cafe.pstatic.net/cafe4/hidden.gif" width="13" height="13" alt="����ī��" class="btn-join down-gnb"></a>
+        <img src="https://cafe.pstatic.net/cafe4/ico-blank.gif" width="1" height="10" alt="" class="tcol-c">
+    </div>
+    <div id="button_mynews_alarm" class="chatting-cafe">
+        <a href="#" class="link_chatting">����</a>
+        <img src="https://cafe.pstatic.net/cafe4/ico-blank.gif" width="1" height="10" alt="" class="tcol-c">
+    </div>
+    <div id="button_mynews_activity" class="chatting-cafe mynews-cafe off">
+        <a href="#" class="link_chatting">���ҽ�</a>
+        <img src="https://cafe.pstatic.net/cafe4/ico-blank.gif" width="1" height="10" alt="" class="tcol-c">
+    </div>
+    <div id="layer_mynews_activity" class="cc_layer_mynews" style="display: none">
+        <div class="cc_mynews_header">
+            <h2 class="title">���ҽ�</h2>
+        </div>
+
+        <div class="cc_mynews_content">
+            <div class="cc_mynews_none" style="display: none">
+                <strong class="title">���ҽ��� �����ϴ�.</strong>
+                <p class="txt">������ ī���� Ȱ�� �˸��� ���۾˸���<br>�̰����� ���ƺ� �� �־���.</p>
+            </div>
+
+            <div class="cc_mynews_area" style="display: none">
+                <span class="blind">�ֱ� 30�� �̳��� �ֽż� �ҽ��Դϴ�.</span>
+                <ul class="cc_mynews_list ">
+                    <li id="_mynews_notice_tooltip">
+                        <div class="cc_mynews_notice">
+                            <p class="notice_txt">
+                                �˸��� <span class="icon_option"></span> ��ư�� Ŭ���ϸ�, �˸��� ������ �� �־���.
+                            </p>
+                            <!-- [D] .btn_close Ŭ�� �� ���� ���̾��� �̳����ǰ� ���ּ���~ -->
+                            <button id="_btn_hide_mynews_notice" type="button" class="btn_close"><span class="blind">���� �ݱ�</span></button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="cc_layer_alert" style="display:none;">
+        <strong class="blind">���ҽ� �ȳ� ���̾��˾�</strong>
+        <div class="cc_alert_content">
+            <p class="txt"></p>
+        </div>
+        <div class="cc_alert_footer">
+            <button type="submit" class="cc_alert_btn">Ȯ��</button>
+        </div>
+    </div>
+
+    <div class="chatting-cafe">
+        <a href="#" class="link_chatting" onclick="openCafeTalk();return false;">ä��</a>
+        <img src="https://cafe.pstatic.net/cafe4/ico-blank.gif" width="1" height="10" alt="" class="tcol-c">
+    </div>
+    <!-- GNB ���ø� ������ -->
+    <div id="gnb">
+
+        <script type="text/javascript" src="https://ssl.pstatic.net/static.gn/templates/gnb_utf8.nhn?1556591132000" charset="utf-8"></script>
+
+    </div>
+    <!--//GNB ���ø� ������ -->
+
+
+
+        <div id="layer_login" style="display:none;">
+            <p><a href="#" onclick="toLoginPage()">�α������ּ���</a></p>
+        </div>
+
+    <iframe id="join-cafe-iframe" title="����ī������" width="280" frameborder="0" scrolling="no" style="overflow:hidden;display:none;"></iframe>
+</div>
+
+
+<div id="cafeappInstallIntroLayer" style="display:none;position:absolute;border:1px solid #969696;background:#fff;top:25px;left:676px">
+  <div style="width:252px;padding:13px 13px 10px;text-align:center">
+    <p style="font-size:12px;line-height:16px;color:#333"><strong><span style="color:#2cae0c">���̹��� �˸�</span>���� <br>ī���� ��ġ ���θ� �����߽��ϴ�.</strong></p>
+    <p style="padding:4px 0 7px;font-size:11px;line-height:16px;color:#999;letter-spacing:-1px">���̹����� �ֽŹ����� �ƴϰų�, <br>�α׾ƿ� ���¿��� �˸��� �� �����̴ٸ� <br>���� �������� ī������ ��ġ�Ͻ� ���� �ֽ��ϴ�.</p>
+    <div style="padding-top:10px;border-top:1px solid #eeeeec;text-align:center">
+      <a href="#" id="cafeappInstallIntroLayerSmsBtn" style="display:inline-block;overflow:hidden;width:116px;height:23px;margin-right:2px;background:url(https://cafe.pstatic.net/img/section/ly_cafeapp_dnld_140331.png) no-repeat 0 -34px;line-height:100px;vertical-align:top">ī���� ��ġ ���� ����</a>
+      <a href="#" id="cafeappInstallIntroLayerCloseBtn" style="display:inline-block;overflow:hidden;width:35px;height:23px;background:url(https://cafe.pstatic.net/img/section/ly_cafeapp_dnld_140331.png) no-repeat 0 -60px;line-height:100px;vertical-align:top">Ȯ��</a>
+    </div>
+  </div>
+  <a href="#" id="cafeappInstallIntroLayerCloseXBtn" style="display:inline-block;overflow:hidden;position:absolute;top:0;right:0;width:30px;height:30px;background:url(https://cafe.pstatic.net/img/section/ly_cafeapp_dnld_140331.png) no-repeat -136px -34px;line-height:100px;vertical-align:top" role="button">���̾� �ݱ�</a>
+</div>
+<script type="text/javascript">
+var cafeappInstallIntroLayer = {
+    init : function(pUserLoggedIn) {
+        this.cafeappInstallIntroLayer = $('cafeappInstallIntroLayer');
+        this.cafeappInstallIntroLayerSmsBtn = $('cafeappInstallIntroLayerSmsBtn');
+        this.cafeappInstallIntroLayerCloseBtn = $('cafeappInstallIntroLayerCloseBtn');
+        this.cafeappInstallIntroLayerCloseXBtn = $('cafeappInstallIntroLayerCloseXBtn');
+        this.userloggedIn = pUserLoggedIn;
+        this.bindEvent();
+    },
+    bindEvent : function() {
+        Event.register(this.cafeappInstallIntroLayerSmsBtn, 'click', this.popupSms.bindForEvent(this));
+        Event.register(this.cafeappInstallIntroLayerCloseBtn, 'click', this.hideLayer.bindForEvent(this));
+        Event.register(this.cafeappInstallIntroLayerCloseXBtn, 'click', this.hideLayer.bindForEvent(this));
+    },
+    hideLayer : function(we) {
+        oCL.hide(this.cafeappInstallIntroLayer);
+        we.stop();
+    },
+    popupSms : function(we) {
+    	openPopupSendURL();
+        oCL.hide(this.cafeappInstallIntroLayer);
+        we.stop();
+    },
+    showLayer : function(event, nTop, nLeft) {
+
+    	if(!this.userloggedIn) {
+    		popupLoginPage(document.location);
+    		return;
+    	}
+    	var oAjax = new Ajax('/CafeAppInstallPushAlim.nhn', {method : "POST"});
+    	oCL.show(this.cafeappInstallIntroLayer, event, nTop, nLeft);
+    	if(event != null) {
+    		Event.ready(event).stop();
+    	}
+    }
+};
+cafeappInstallIntroLayer.init(false);
+</script>
+
+
+
+<script type="text/javascript">
+    var MyNewsActivityList = {
+        init: function () {
+            this.elMyNewsList = document.querySelector(".cc_mynews_list");
+            this.elMyNewsContent = document.querySelector(".cc_mynews_content");
+            this.elMyNewsArea = document.querySelector(".cc_mynews_area");
+            this.elMyNewsAreaNone = document.querySelector(".cc_mynews_none");
+
+            this.elMessageBox = document.querySelector(".cc_layer_alert");
+            this.elMessageBoxButton = document.querySelector(".cc_alert_btn");
+
+            this.elNewsNoticeTooltip = this._fetchNewsNoticeTooltipElement();
+
+            this.processingScrollEvent;
+            this.lastMouseOverElement;
+
+            this.bHasNewsMessage = false;
+
+            /*
+            �����˸���  ��ư�� Ŭ���ϸ� �� ī���� �����˸��� �� �� �־���.
+            ���� ������ default�� ���µǱ� ������,
+            �ش� ������ �� �ٸ� �����Ͱ� ���ٸ�, �����Ͱ� �ƹ��͵� ���ٴ� �� �̴�.
+             */
+            this.NO_MORE_MESSAGE = 1;
+
+            this._attachEvent();
+        },
+
+        _fetchNewsNoticeTooltipElement: function () {
+            return document.querySelector("#_mynews_notice_tooltip");
+        },
+
+        _attachEvent: function () {
+            Event.register(this.elMyNewsContent, "scroll", this._onScroll.bindForEvent(this));
+            Event.register(this.elMyNewsList, "click", this._onClickHideNoticeTooltip.bindForEvent(this, "#_btn_hide_mynews_notice"));
+            Event.register(this.elMyNewsList, "click", this._onClickMynewsOption.bindForEvent(this, ".cc_mynews_option_btn"));
+            Event.register(this.elMyNewsList, "click", this._onClickMessage.bindForEvent(this, ".cc_mynews_item"));
+            Event.register(this.elMyNewsList, "click", this._onClickCafeNoticeOff.bindForEvent(this, ".cc_mynews_option_layer"));
+            Event.register(this.elMyNewsList, "click", this._onClickCommentNotiSetting.bindForEvent(this,".cc_mynews_option_layer"));
+            Event.register(this.elMyNewsList, "click", this._onClickRemoveNoti.bindForEvent(this, ".cc_mynews_option_layer"));
+            Event.register(this.elMyNewsList, "click", this._onClickCafeInviteReject.bindForEvent(this, ".cc_mynews_option_layer"));
+
+            Event.register(this.elMyNewsList, "mouseover", this._onMouseLeaveMessage.bindForEvent(this, "li"));
+            Event.register(this.elMyNewsList, "mouseover", this._onMouseEnterMessage.bindForEvent(this, "li"));
+            Event.register(this.elMyNewsList, "mouseleave", this._onMouseLeaveAllMessage.bindForEvent(this, "li"));
+
+            Event.register(this.elMessageBoxButton, "click", this._onClickMessageBoxButton.bindForEvent(this));
+
+        },
+        _onScroll: function(e) {
+            if (!this.processingScrollEvent && this._isScrollBottom(e)) {
+
+                var elMessageList = this.elMyNewsList.querySelectorAll("li");
+                var nLastMessageKey = elMessageList[elMessageList.length - 1].getAttribute("data-messageKey");
+
+                this.requestMyNewsList(nLastMessageKey);
+            }
+        },
+
+        _isScrollBottom: function(e) {
+           return e.target.offsetHeight + e.target.scrollTop >= e.target.scrollHeight;
+        },
+
+        _onClickHideNoticeTooltip: function(e, selector) {
+            var target = this._findParentBySelector(e.target, selector);
+            if (!target) {
+                return;
+            }
+
+            oMainLocalStorage.setLocalStorage(oMainLocalStorage.PC_HIDE_MYNEWS_TOOLTIP, "Y");
+            this._toggleNewsNoticeTooltip(false);
+        },
+
+        _onClickMynewsOption: function(e, selector) {
+            var target = this._findParentBySelector(e.target, selector);
+            if (!target) {
+                return;
+            }
+
+            e.target.parentElement.querySelector(".cc_mynews_option_layer").style.display="block";
+        },
+
+        _onClickMessage: function(e, selector) {
+            var target = this._findParentBySelector(e.target, selector);
+            if (!target) {
+                return;
+            }
+
+            var sMessageKey = target.parentNode.getAttribute("data-messageKey");
+            var sCategoryId = target.parentNode.getAttribute("data-categoryId");
+            this.requestMyNewsConfirm(sMessageKey, sCategoryId);
+
+            if (target.getAttribute("data-message")) {
+                this._appearMessageBox(target.getAttribute("data-message"));
+            } else {
+                location.href = target.getAttribute("data-url");
+            }
+        },
+
+        _onMouseEnterMessage: function(e, selector) {
+            var target = this._findParentBySelector(e.target, selector);
+            if (!target || this.lastMouseOverElement == target) {
+                return;
+            }
+
+            if (target && target.id == "_btn_hide_mynews_notice") {
+                return;
+            }
+
+            this.lastMouseOverElement = target;
+
+            var btnMynewsOption = target.querySelector(".cc_mynews_option");
+            if (!btnMynewsOption) {
+                return ;
+            }
+            btnMynewsOption.style.display = "block";
+        },
+
+        _onMouseLeaveMessage: function(e, selector) {
+            var target = this._findParentBySelector(e.target, selector);
+            if (!this.lastMouseOverElement || this.lastMouseOverElement == target) {
+                return;
+            }
+
+            var btnMynewsOption = this.lastMouseOverElement.querySelector(".cc_mynews_option");
+            if (!btnMynewsOption) {
+                return ;
+            }
+
+            var btnMynewsOptionLayer = this.lastMouseOverElement.querySelector(".cc_mynews_option_layer");
+            if (!btnMynewsOptionLayer) {
+                return ;
+            }
+
+            btnMynewsOption.style.display = "none";
+            btnMynewsOptionLayer.style.display = "none";
+        },
+
+        _onMouseLeaveAllMessage: function(e, selector) {
+            var target = e.target.querySelector(selector);
+            if (!this.lastMouseOverElement || this.lastMouseOverElement == target) {
+                return;
+            }
+
+            var btnMynewsOption = this.lastMouseOverElement.querySelector(".cc_mynews_option");
+            if (!btnMynewsOption) {
+                return ;
+            }
+
+            var btnMynewsOptionLayer = this.lastMouseOverElement.querySelector(".cc_mynews_option_layer");
+            if (!btnMynewsOptionLayer) {
+                return ;
+            }
+
+            btnMynewsOption.style.display = "none";
+            btnMynewsOptionLayer.style.display = "none";
+            this.lastMouseOverElement = undefined;
+        },
+
+        _onClickCafeNoticeOff: function (e, selector) {
+            var elCafeNotiOffTab = e.target;
+
+            if (!elCafeNotiOffTab || elCafeNotiOffTab.className.indexOf("_noticeAlarmOff") === -1) {
+                return;
+            }
+
+            var elTarget = this._findParentBySelector(elCafeNotiOffTab, selector);
+            if (!elTarget) {
+                return;
+            }
+
+            if (!confirm("�� ī���� �����˸��� ���ðڽ��ϱ�?\n"
+                + "ī�� ���� ���� ī�� > �˸� ���� �޴����� �ٽ� �� �� �ֽ��ϴ�.")) {
+                return;
+            }
+
+            var liTarget = this._findParentBySelector(elTarget, "li");
+            if(!liTarget) {
+                return;
+            }
+
+            var nCafeId = liTarget.getAttribute("data-cafeId");
+            if (!nCafeId) {
+                return;
+            }
+
+            this._requestNoticeAlarmOff(nCafeId, liTarget);
+        },
+
+        _onClickCommentNotiSetting: function (e, selector) {
+            var elCommentSettingTab = e.target;
+
+            if (!elCommentSettingTab || elCommentSettingTab.className.indexOf("_commentNotiSetting") === -1) {
+                return;
+            }
+
+            var elTarget = this._findParentBySelector(elCommentSettingTab, selector);
+            if (!elTarget) {
+                return;
+            }
+
+            var liTarget = this._findParentBySelector(elTarget, "li");
+            if(!liTarget) {
+                return;
+            }
+
+            var nCafeId = liTarget.getAttribute("data-cafeId");
+            var sCafeName = liTarget.getAttribute("data-cafeName");
+            if (!nCafeId || !sCafeName) {
+                return;
+            }
+
+            this._requestCommentSettingInfo(nCafeId);
+
+            var elMyNewsCommentSettingCafeName = document.querySelector("#myNewsCommentSettingCafeName");
+            if (!elMyNewsCommentSettingCafeName) {
+                return;
+            }
+            elMyNewsCommentSettingCafeName.innerText = sCafeName;
+
+            var elMyNewsCommentSettingLayer = document.querySelector("#myNewsCommentSettingLayer");
+            if (!elMyNewsCommentSettingLayer) {
+                return;
+            }
+
+            elMyNewsCommentSettingLayer.setAttribute("data-cafeId", nCafeId);
+
+            elMyNewsCommentSettingLayer.style.display = "block";
+        },
+
+        _requestCommentSettingInfo: function (nCafeId) {
+            var sUrl = "/CommentActivityConfig.nhn";
+            var sQueryString = "?cafeId=" + nCafeId;
+
+            var ajax = new Ajax(sUrl + sQueryString, {
+                method: 'POST',
+                onLoad: function (res) {
+                    if (typeof(JSON) == "object" && typeof(JSON.parse) == "function") {
+                        var jsonDoc = JSON.parse(res.responseText);
+                    }
+                    if (jsonDoc.message.status != 200) {
+                        return;
+                    }
+
+                    var bShowAllCmtOption = false;
+                    var sCurrentCommentActivityType = jsonDoc.message.result.commentActivity;
+                    var aEnableCommentActivityConfigList = jsonDoc.message.result.enableCommentActivityConfigList;
+
+
+                    document.querySelector("#" + sCurrentCommentActivityType).checked = true;
+                    document.querySelector("#currentSettingOption").value = sCurrentCommentActivityType;
+
+                    for (var i = 0, len = aEnableCommentActivityConfigList.length; i < len; i++) {
+                        if (aEnableCommentActivityConfigList[i].value.indexOf("ALL") !== -1) {
+                            bShowAllCmtOption = true;
+                        }
+                    }
+
+                    document.querySelector("#cmtSettingAll").style.display = bShowAllCmtOption ? "block" : "none";
+                }
+            });
+        },
+        _onClickRemoveNoti: function (e, selector) {
+            var elCommentSettingTab = e.target;
+
+            if (!elCommentSettingTab || elCommentSettingTab.className.indexOf("_removeNoti") === -1) {
+                return;
+            }
+
+            var elTarget = this._findParentBySelector(elCommentSettingTab, selector);
+            if (!elTarget) {
+                return;
+            }
+
+            var liTarget = this._findParentBySelector(elTarget, "li");
+            if(!liTarget) {
+                return;
+            }
+
+            var sMessageKey = liTarget.getAttribute("data-messageKey");
+            var sCategoryId = liTarget.getAttribute("data-categoryId");
+
+            this._requestNotiRemove(sMessageKey, sCategoryId, liTarget);
+        },
+        _onClickCafeInviteReject: function (e, selector) {
+            var elCafeInviteReject = e.target;
+
+            if (!elCafeInviteReject || elCafeInviteReject.className.indexOf("_inviteReject") === -1) {
+                return;
+            }
+
+            if (!confirm("�ʴ븦 �����Ͻðڽ��ϱ�?\n" +
+                    "�� ī�� �ʴ��� �ٽ� ���� �� �����ϴ�")) {
+                return;
+            }
+
+            var elTarget = this._findParentBySelector(elCafeInviteReject, selector);
+            if (!elTarget) {
+                return;
+            }
+
+            var liTarget = this._findParentBySelector(elTarget, "li");
+            if(!liTarget) {
+                return;
+            }
+
+            var nCafeId = liTarget.getAttribute("data-cafeId");
+            var sMessageKey = liTarget.getAttribute("data-messageKey");
+
+            this._requestCafeInviteReject(nCafeId, sMessageKey, liTarget);
+
+
+        },
+        _requestNoticeAlarmOff: function (nCafeId, liTarget) {
+            var sUrl = "/MyNewsActivityNoticeAlarmOff.nhn";
+            var sQueryString = "?cafeId=" + nCafeId;
+
+            var ajax = new Ajax(sUrl + sQueryString, {
+                method: 'GET',
+                onLoad: function (res) {
+                    if (typeof(JSON) == "object" && typeof(JSON.parse) == "function") {
+                        var jsonDoc = JSON.parse(res.responseText);
+                    }
+
+                    if (jsonDoc.message.status == 200) {
+                        MyNewsActivityList.elMyNewsList.removeChild(liTarget);
+                        MyNewsActivityList._renderMynewsListLayer();
+                    }
+
+                }
+            });
+        },
+        _requestNotiRemove: function (sMessageKey, sCategoryId, liTarget) {
+            var sUrl = "/MyNewsMessageRemove.nhn";
+            var sQueryString = "?messageKey=" + sMessageKey + "&categoryId=" + sCategoryId;
+
+            var ajax = new Ajax(sUrl + sQueryString, {
+                method: 'GET',
+                onLoad: function (res) {
+                    if (typeof(JSON) == "object" && typeof(JSON.parse) == "function") {
+                        var jsonDoc = JSON.parse(res.responseText);
+                    }
+
+                    if (jsonDoc.message.status == 200) {
+                        MyNewsActivityList.elMyNewsList.removeChild(liTarget);
+                        MyNewsActivityList._renderMynewsListLayer();
+                    }
+
+                }
+            });
+        },
+        _requestCafeInviteReject: function (nCafeId, sMessageKey, liTarget) {
+            var sUrl = "/MyNewsInvitationReject.nhn";
+            var sQueryString = "?cafeId=" + nCafeId + "&messageKey=" + sMessageKey;
+
+            var ajax = new Ajax(sUrl + sQueryString, {
+                method: 'GET',
+                onLoad: function (res) {
+                    if (typeof(JSON) == "object" && typeof(JSON.parse) == "function") {
+                        var jsonDoc = JSON.parse(res.responseText);
+                    }
+
+                    if (jsonDoc.message.status == 200) {
+                        MyNewsActivityList.elMyNewsList.removeChild(liTarget);
+                        MyNewsActivityList._renderMynewsListLayer();
+                    }
+
+                }
+            });
+        },
+
+        _onClickMessageBoxButton: function () {
+            this.elMessageBox.style.display = "none";
+        },
+
+        _findParentBySelector: function(el, selector) {
+            var existSelector = false;
+            var selectorType = selector.indexOf(".") == 0 ? "class" : selector.indexOf("#") == 0 ? "id" : "tag";
+            var selectorName = selectorType === "tag" ? selector : selector.substring(1, selector.length);
+
+            while (el !== this && !existSelector) {
+                if (!el.tagName) {
+                    return ;
+                }
+
+                if (selectorType == "class") {
+                    if (el.className.indexOf(selectorName) != -1) {
+                        existSelector = true;
+                        continue;
+                    }
+                } else if (selectorType == "id") {
+                    if (el.id == selectorName) {
+                        existSelector = true;
+                        continue;
+                    }
+
+                } else {
+                    if (el.tagName.toLowerCase() === selector) {
+                        existSelector = true;
+                        continue;
+                    }
+                }
+                el = el.parentNode;
+            }
+
+            return el;
+        },
+
+        _appearMessageBox: function (message) {
+            this.elMessageBox.querySelector(".txt").innerHTML = message;
+            this.elMessageBox.style.display = "block";
+        },
+
+        _renderMynewsListLayer: function () {
+            this.bHasNewsMessage = MyNewsActivityList.elMyNewsList.childElementCount === this.NO_MORE_MESSAGE ? false : true;
+            if (this.bHasNewsMessage) {
+                this.elMyNewsArea.style.display = "block";
+                this.elMyNewsAreaNone.style.display = "none";
+                return;
+            }
+            this.elMyNewsArea.style.display = "none";
+            this.elMyNewsAreaNone.style.display = "block";
+        },
+
+        _appendMynewsList: function (sStringifyElement) {
+            if (!sStringifyElement) return;
+            this.elMyNewsList.insertAdjacentHTML("beforeend", sStringifyElement);
+            this.elNewsNoticeTooltip = this._fetchNewsNoticeTooltipElement();
+        },
+
+        _sendMyNewsListOpenBA: function () {
+            oBAStatSender.send([
+                {
+                    eventType : cafe.BAStatEventType.PC_808_270
+                }
+            ]);
+            var list = $$(".cc_mynews_area a");
+            for (var i = 0; i < list.length; i++) {
+                list[i].addEventListener('click', this.sendClickNewsActivity);
+            }
+        },
+
+        _toggleNewsNoticeTooltip: function(bVisible) {
+            bVisible ? this.elNewsNoticeTooltip.style.display = "block" : this.elNewsNoticeTooltip.style.display = "none";
+        },
+
+        showNoticeIfAllowed : function() {
+            if (oMainLocalStorage.getLocalStorage(oMainLocalStorage.PC_HIDE_MYNEWS_TOOLTIP) == 'Y') {
+                this._toggleNewsNoticeTooltip(false);
+                return;
+            }
+
+            this._toggleNewsNoticeTooltip(true);
+        },
+
+        requestMyNewsList: function(messageKey) {
+            var sUrl = "/MyNewsActivityListAjax.nhn";
+            var sQueryString = messageKey ? "?messageKey=" + messageKey : "";
+
+            this.processingScrollEvent = true;
+            var that = this;
+
+            var ajax = new Ajax(sUrl + sQueryString, {
+                method: 'GET',
+                onLoad: function (res) {
+                    if (!res || res.status != '200' || !res.responseText) {
+                        return;
+                    }
+
+                    if (!res.responseText.trim() && !that.bHasNewsMessage) {
+                        that._toggleNewsNoticeTooltip.call(that, false);
+                    } else {
+                        that._appendMynewsList(res.responseText);
+                        that._sendMyNewsListOpenBA();
+                        that.processingScrollEvent = false;
+                    }
+
+                    // ���� ��û �� display ���� ����
+                    var bFirstRequest = !messageKey;
+                    if (bFirstRequest) {
+                        that._renderMynewsListLayer();
+                    }
+
+                }
+            });
+        },
+
+        requestMyNewsConfirm: function (sMessageKey, sCategoryId) {
+            var sUrl = "/MyNewsActivityConfirmAjax.nhn";
+            var sQueryString = "?messageKey=" + sMessageKey + "&categoryId=" + sCategoryId;
+
+            var ajax = new Ajax(sUrl + sQueryString, {
+                method: 'GET',
+                onLoad: function (res) {
+                    if (typeof(JSON) == "object" && typeof(JSON.parse) == "function") {
+                        var jsonDoc = JSON.parse(res.responseText);
+                    }
+
+                    if (jsonDoc.message.status == 200) {
+                        // success
+                    }
+
+                }
+            });
+        },
+
+        removeAll: function () {
+            if (!this.bHasNewsMessage) {
+                return;
+            }
+
+	        this.elMyNewsList.textContent = '';
+            this.elMyNewsList.appendChild(this.elNewsNoticeTooltip);
+
+        },
+
+		sendClickNewsActivity: function (e) {
+			oBAStatSender.send([
+				{
+					eventType : cafe.BAStatEventType.PC_809_270
+				}
+			]);
+		}
+    };
+
+    MyNewsActivityList.init();
+</script>
+
+
+
+<script type="text/javascript">
+
+    var nsc="cafe"; //���񽺿��� �����ϴ� nclick service code.
+    var gnb_service="cafe"; //������ �� .naver.com ���� �������� ���� ex) sports.news.naver.com => sports.news
+    var gnb_logout="https://cafe.naver.com/Logout.nhn?alreadyNaverLogout=true"; //GNB���� �α׾ƿ� �� redirect �� URL
+    var gnb_template="gnb_euckr"; //�����ϰ� �ִ� ���ø� ��
+    var gnb_brightness=1; // 0: ���ο��� ������, 1: ���ο��� ������ + ������, 2: ������ ������ + ������, 3: ������ ������(pwe ��������)
+    var gnb_item_hide_option=28; //0(default) : ���� ǥ��, 1 : �α��ι�ư ������, 2 : user ���̾� ������, 4: Naver Me ���� ������, 8 : ���Ͼ˸����� ������, 16 : ������ �̹��� ������, 32 : ���������� ���̱�(���� ������ ���� bit sum �Ͽ� ����)
+
+</script>
+
+
+
+<script type="text/javascript" src="/static/js/mycafe/common/bastat/ScriptBAStatLog-1545208501000-103551.js" charset="UTF-8"></script>
+
+
+<script type="text/javascript">
+
+    function getReferrerForBA() {
+        if (typeof(window.top.articleReadBalog) === "undefined") {
+            window.top.articleReadBalog = {
+                useIframeReferrer: false
+            };
+        }
+        if (!window.top.articleReadBalog.useIframeReferrer && !!window.top.document.referrer) {
+            window.top.articleReadBalog.useIframeReferrer = true;
+            return window.top.document.referrer;
+        }
+        return document.referrer;
+    }
+
+    var oBAStatSender = new cafe.BAStatSender({
+        oClient : {
+            service_id: 'cafe',
+            user_key: '__UNKNOWN__',
+            os_name: '__UNKNOWN__',
+            os_ver: '-1',
+            app_ver: '-1',
+            country: 'XX',
+            language: 'xx',
+            device_id: '56SKAVYOT7AFY',
+            device_model: '__UNKNOWN__',
+            product: 'web'
+        },
+        sEnv: 'real'
+    });
+</script>
+<script type="text/javascript">
+    var ToggleCafeGNBLayer = {
+        init : function() {
+            this.joinCafeModel = {
+                button : $("button_join_cafe"),
+                layer : $("join-cafe-iframe"),
+                toggle : function (bVisible) {
+                    bVisible ? this.hide() : this._show();
+                },
+                _show : function () {
+                    this.layer.src = "/MyCafeListGNBView.nhn";
+                    Element.show(this.layer);
+                    this.button.className = this.button.className.replace("off","on")
+
+					oBAStatSender.send([
+						{
+							eventType : cafe.BAStatEventType.PC_827_167
+						}
+					]);
+                },
+                hide : function () {
+                    this.layer.src = "";
+                    Element.hide(this.layer);
+                    this.button.className = this.button.className.replace("on","off")
+                }
+            };
+            this.activityModel = {
+                button: $("button_mynews_activity"),
+                layer: $("layer_mynews_activity"),
+                elActivityCount: $("mynews_activity_count_display"),
+                toggle: function (bVisible) {
+                    bVisible ? this.hide() : this._show();
+                },
+                _show: function () {
+                    MyNewsActivityList.showNoticeIfAllowed();
+                    MyNewsActivityList.requestMyNewsList();
+                    Element.show(this.layer);
+                    Element.removeClass(this.button, "off");
+                    Element.addClass(this.button, "on");
+
+                    if (this.elActivityCount) {
+                        Element.hide(this.elActivityCount);
+                    }
+
+					oBAStatSender.send([
+						{
+							eventType : cafe.BAStatEventType.PC_806_167
+						}
+					]);
+                },
+                hide: function () {
+                    MyNewsActivityList.removeAll();
+                    Element.hide(this.layer);
+                    Element.removeClass(this.button, "on");
+                    Element.addClass(this.button, "off");
+                }
+            };
+
+            this.alarmModel = {
+                button: $("button_mynews_alarm"),
+            };
+
+            this.loginModel = {
+                button: null,
+                layer: $("layer_login"),
+                toggle: function (bVisible) {
+                    Element.toggle(this.layer);
+                },
+                hide: function () {
+                    Element.hide(this.layer);
+                }
+            };
+
+            this.elCurrent = null;
+
+            this.elGnbCurrent = { layer : null};
+            this.bClickGnb = false;
+
+            this.attachEvent(true);
+        },
+        attachEvent : function(bInit) {
+            if (bInit) {
+                var oThis = this;
+                Event.register(this.joinCafeModel.button, "click", this.clickArea.bindForEvent(this, this.joinCafeModel));
+                Event.register(this.activityModel.button, "click", this.clickArea.bindForEvent(this, this.activityModel));
+                Event.register(this.alarmModel.button, "click", this.clickAlarmButton.bindForEvent(this));
+
+                Event.register(document, "click", this.hide.bindForEvent(this));
+                for (var gnFitted = 0; gnFitted < 10; gnFitted++) {
+                    if ($('gnb_my_layer') && $('gnb_service_layer')) {
+                        setTimeout(function () {
+                            Event.register($('gnb_my_layer'), "click", oThis.toggleGnbLayer.bindForEvent(oThis));
+                            Event.register($('gnb_service_layer'), "click", oThis.toggleGnbLayer.bindForEvent(oThis));
+                        }, 500);
+                        break;
+                    }
+                }
+                return ;
+            }
+            this.elFrame = $("cafe_main");
+
+            if (this.elFrame) {
+                this.elFrameLocation = this.elFrame && this.elFrame.contentWindow && this.elFrame.contentWindow.location.toString() || "";
+                this.frameEvent(this);
+                this.frameEvent();
+            }
+        },
+        toggleGnbLayer : function(oEvent) {
+            var el = oEvent && (oEvent.target || oEvent.srcElement);
+
+            if( gnbUserLayer && gnbUserLayer.show ) {
+                this.elGnbCurrent = { layer : gnbUserLayer};
+                this.bClickGnb = true;
+            } else if ( gnbMoreLayer && gnbMoreLayer.show ) {
+                this.elGnbCurrent = { layer : gnbMoreLayer};
+                this.bClickGnb = true;
+            } else {
+                this.elGnbCurrent = { layer : null};
+                this.bClickGnb = false;
+            }
+        },
+        frameEvent : function(bDetach) {
+            var elEditor = this.elFrame && this.elFrame.contentWindow.oEditor;
+
+            Event[bDetach ? "unregister" : "register"](this.elFrame.contentWindow.document, "click",this.hide.bindForEvent(this));
+
+
+            if(elEditor) {
+                Event[bDetach ? "unregister" : "register"](elEditor.getDocument(), "click",this.hide.bindForEvent(this));
+            }
+        },
+        clickArea : function(oEvent, selectedModel) {
+            var el = oEvent.target || oEvent.srcElement || oEvent.element;
+
+            if(!/(a|img)/i.test(el.tagName)) {
+                return;
+            }
+
+            this.loginCheck(selectedModel);
+
+            Event.stop(oEvent);
+
+            this.attachEvent();
+        },
+        loginCheck: function (selectedModel) {
+            new Ajax("/LoginCheck.nhn?m=check", {
+                method: 'GET',
+                onLoad: function (res) {
+                    if (!res || res.status != '200' || !res.responseText) {
+                        return;
+                    }
+                    if (res.responseText == "LOGOUT") {
+                        ToggleCafeGNBLayer.openLoginPopup();
+                    } else {
+						ToggleCafeGNBLayer.toggle({selectedModel: selectedModel});
+					}
+                }
+            });
+        },
+        clickAlarmButton : function(oEvent, selectedModel) {
+			oBAStatSender.send([
+				{
+					eventType : cafe.BAStatEventType.PC_828_167
+				}
+			]);
+
+            location.href = "https://section.cafe.naver.com/cafe-home/feeds";
+        },
+        toggle : function (oEvent) {
+            var bVisible = Element.visible(oEvent.selectedModel.layer);
+            oEvent.selectedModel.toggle(bVisible);
+            this.elCurrent = oEvent.selectedModel;
+        },
+        hide : function(oEvent) {
+            // ���ҽ� ���̾� ���� Ŭ�� �� ������ ���� ����
+            if (this.elCurrent && this.elCurrent.layer && oEvent.target) {
+                // ���ҽ� ���̾� ������ ����
+                if (this.elCurrent.layer.contains(oEvent.target)) {
+                    return;
+                }
+
+                // ���ҽ� ���̾� > ���� ���� ���̾��� ����
+                var elMyNewsCommentSettingLayer = $("myNewsCommentSettingLayer");
+                if (elMyNewsCommentSettingLayer && elMyNewsCommentSettingLayer.contains(oEvent.target)) {
+                    return ;
+                }
+            }
+
+            if(this.elCurrent && this.elCurrent.layer && this.elCurrent.layer.style && this.elCurrent != oEvent.selectedModel) {
+                this.elCurrent.hide();
+            }
+
+            // 2014�� GNB ���̾� �ݱ�ó��
+            if(this.elGnbCurrent.layer && (this.elGnbCurrent.layer.myLayerElement || this.elGnbCurrent.layer.moreLayerElement) && !this.bClickGnb) {
+                gnbAllLayerClose();
+            }
+            this.bClickGnb = false;
+
+            // iframe location�� �ٸ� ���쿡 Ŭ�� �̺�Ʈ�� �缳���Ѵ�.
+            if(this.elFrameLocation && this.elFrameLocation != this.elFrame.contentWindow.location) {
+                this.frameEvent(this);
+                this.elFrameLocation = this.elFrame.contentWindow.location.toString();
+                this.frameEvent();
+            }
+        },
+        openLoginPopup: function () {
+            open_wnd("https://nid.naver.com/nidlogin.login?template=plogin&mode=form&url=https://cafe.naver.com/OpenerRedirect.nhn%3Fopenerurl%3D%252Fnchappyclub.cafe", "naver_login", 410, 280);
+        }
+    };
+    getGNB();
+    ToggleCafeGNBLayer.init();
+</script>
+
+
+
+
+<script type="text/javascript">
+
+
+    function openCafeTalk() {
+        false ? accessChat(false) : openLoginPopup();
+
+		oBAStatSender.send([
+			{
+				eventType : cafe.BAStatEventType.PC_858_167
+
+			}
+		]);
+    }
+
+    /**
+     * ä��Ȩ�� �˾����� ������.
+     *
+     * cafe-info-action, cafe-gnb.jsp ���� ����.
+     */
+    function openChatHomePopUp(bMyCafeChat) {
+        var sChatUrl = 'https://talk.cafe.naver.com' + (bMyCafeChat? "/cafes/27308868/channels" : "/channels");
+        popupCenter(sChatUrl, 'CafeChatHome', 400, 700);
+    }
+
+    function chatting(bMyCafeChat) {
+		oBAStatSender.send([
+			{
+				eventType : cafe.BAStatEventType.PC_1029_167
+
+			}
+		]);
+
+
+
+
+                joinCafe();
+
+
+    }
+
+    function accessChat(bMyCafeChat) {
+        var oSslChecker = new Image();
+
+        oSslChecker.addEventListener('load', openChatHomePopUp(bMyCafeChat), true);
+
+        oSslChecker.onerror = function() {
+            alert("ä�ÿ� �ʿ��� �������� �������� �ʴ� OS�Դϴ�.");
+        };
+
+        oSslChecker.src = "https://secure.cafe.naver.com/secure-images/sslcheck/cafe.gif";
+    }
+
+    function openLoginPopup() {
+        open_wnd("https://nid.naver.com/nidlogin.login?template=plogin&mode=form&url=https://cafe.naver.com/OpenerRedirect.nhn%3Fopenerurl%3D%252Fnchappyclub.cafe", "naver_login", 410, 280);
+    }
+</script>
+
+		</div>
+
+<div id="myNewsCommentSettingLayer" class="cc_layer_dimmed _stopDefault" data-cafeId="" style="display: none;">
+    <div class="layer_wrap">
+        <div class="layer_header">
+            <h1 class="title">���ҽ� ���۾˸� ����</h1>
+        </div>
+        <div class="layer_content">
+            <div class="content_title">
+                <strong id="myNewsCommentSettingCafeName" class="name"></strong>
+            </div>
+            <div class="setting_check">
+                <input type="hidden" id="currentSettingOption" value=""/>
+                <ul class="list">
+                    <li id="cmtSettingAll">
+                        <div class="radio_box type_green">
+                            <input type="radio" id="ALL" name="cmt_alarm" class="blind">
+                            <label for="ALL">
+                                <strong class="txt">���� ���۾˸� �ޱ�</strong>
+                                <p class="info">�� ī���� ���� ���۾˸��� �޽��ϴ�.</p>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="radio_box type_green">
+                            <input type="radio" id="REL" name="cmt_alarm" class="blind">
+                            <label for="REL">
+                                <strong class="txt">�������� �˸� �ޱ�</strong>
+                                <p class="info">�� ��, �� ����, ���� ���� �� �ۿ� ���� ����<br>�˸��� �޽��ϴ�.</p>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="radio_box type_green">
+                            <input type="radio" id="MY" name="cmt_alarm" class="blind">
+                            <label for="MY">
+                                <strong class="txt">�� ��/������ �˸� �ޱ�</strong>
+                                <p class="info">�� ��, �� ���ۿ� ���� ���۾˸��� �޽��ϴ�.</p>
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="btn_area">
+                <a href="#" role="button" class="btn _stopDefault" id="newCommentOptionCancel">����</a>
+                <a href="#" role="button" class="btn point _stopDefault" id="newCommentOptionSave">Ȯ��</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    var MyNewsCommentSetting = {
+        init: function () {
+            this.elDimmedLayer = document.querySelector(".cc_layer_dimmed");
+            this.elSaveBtn = document.querySelector("#newCommentOptionSave");
+            this.elCancelBtn = document.querySelector("#newCommentOptionCancel");
+
+            this._attachEvent();
+        },
+        _attachEvent: function () {
+            Event.register(this.elSaveBtn, "click", this._onClickNewCommentOptionSave.bindForEvent(this, "#myNewsCommentSettingLayer"));
+            Event.register(this.elCancelBtn, "click", this._onClickNewCommentOptionCancel.bindForEvent(this, "#myNewsCommentSettingLayer"));
+        },
+        _onClickNewCommentOptionSave: function (e, selector) {
+
+            var sCheckedType = document.querySelector("input[name=cmt_alarm]:checked").id;
+            var elTarget = document.querySelector(selector);
+
+            var nCafeId = elTarget.getAttribute("data-cafeId");
+            if (!nCafeId || nCafeId.trim().length <= 0) {
+                return;
+            }
+
+            //���� ��ȭ�� ������ ������ �׳� �ݴ´�.
+            var sCurrentSetting = document.querySelector("#currentSettingOption").value;
+            if (sCurrentSetting && sCheckedType === sCurrentSetting) {
+                this.elDimmedLayer.style.display = "none";
+                return;
+            }
+
+            this._requestCommentActivityConfig(nCafeId, sCheckedType, this);
+        },
+
+        _requestCommentActivityConfig: function (nCafeId, sCheckedType, self) {
+            var sUrl = "/CommentActivityConfigUpdate.nhn";
+            var sQueryString = "?cafeId=" + nCafeId + "&type=" + sCheckedType;
+
+            var ajax = new Ajax(sUrl + sQueryString, {
+                method: 'GET',
+                onLoad: function (res) {
+                    if (typeof(JSON) == "object" && typeof(JSON.parse) == "function") {
+                        var jsonDoc = JSON.parse(res.responseText);
+                    }
+
+                    if (jsonDoc.message.status != 200) {
+                        return;
+                    }
+                    switch(sCheckedType) {
+                        case "ALL" :
+                            alert("���ݺ��� ���� ���۾˸��� �޽��ϴ�. \n����, ��ǰ�ŷ�, �����Խ��� ���� �Խ��ǿ�����\n������ �������� �� ��/������ �˸��� �����˴ϴ�.");
+                            break;
+                        case "REL" :
+                            alert("���ݺ��� �������� ���۾˸��� �޽��ϴ�. \n����, ��ǰ�ŷ�, �����Խ��� ���� �Խ��ǿ�����\n������ �������� �� ��/������ �˸��� �����˴ϴ�.");
+                            break;
+                        case "MY" :
+                            alert("���ݺ��� �� ��/������ �˸��� �޽��ϴ�.\n������ ���� �˸��� ���Ͽ� �����˴ϴ�.");
+                            break;
+
+                    }
+                    self.elDimmedLayer.style.display = "none";
+                }
+            });
+        },
+        _onClickNewCommentOptionCancel: function () {
+            this.elDimmedLayer.style.display = "none";
+        }
+    };
+    MyNewsCommentSetting.init();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+
+
+
+
+// ž��Ų ������ ����
+function resizeTopSkin(img) {
+    if(!img || img.src.indexOf(".png")>-1 ||img.src.indexOf(".PNG")>-1) return;
+    if(img.height>300) img.height="300";
+    if(img.width>956) img.width="956";
+}
+
+
+
+function updateMoveMenu() {
+	if (typeof oMenuMoveUpdater == "undefined") {
+		return;
+	}
+
+	oMenuMoveUpdater.update(null);
+}
+</script>
+
+
+
+
+
+
+
+  <div id="front-img">
+
+
+
+
+
+
+
+				<div id="front-cafe" class="begin_tit">
+					<table cellspacing="0" cellpadding="0" border="0">
+						<tbody>
+						<tr>
+							<td height="100" background="https://cafe.pstatic.net/cafe4/img_default_title.gif">
+								<h2><a name="myCafeUrlLink" onclick="updateMoveMenu()" target="cafe_main" href="/MyCafeIntro.nhn?clubid=27308868">NC����Ŭ��</a></h2>
+								<p><a name="myCafeUrlLink" onclick="updateMoveMenu()" target="cafe_main" href="/MyCafeIntro.nhn?clubid=27308868">cafe.naver.com/nchappyclub</a></p>
+							</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div id="special-menu">
+		<div class="box-special-menu">
+			<ul class="special-menu" id="special-menu-item">
+
+
+					<li class="default" id="special-menu-0"><p>
+
+
+								<a href="/ArticleList.nhn?search.clubid=27308868&search.boardtype=L" target="cafe_main" onclick="goMenu(0);" class="off" id="special-menuLink-0">��ü�ۺ���</a>
+
+
+
+
+
+
+
+
+
+
+
+					</p><span> </span></li>
+
+
+					<li class="default" id="special-menu--2"><p>
+
+
+
+
+
+
+
+								<a href="/ArticleList.nhn?search.clubid=27308868&amp;search.boardtype=I&amp;search.specialmenutype=P" target="cafe_main" onclick="goMenu(-2);" class="off" id="special-menuLink--2">�̹������ƺ���</a>
+
+
+
+
+
+
+					</p><span> </span></li>
+
+
+					<li class="default" id="special-menu--10"><p>
+
+
+
+								<a href="/CafeTagCloudList.nhn?search.clubId=27308868" target="cafe_main" onclick="goMenu(-10);" class="off" id="special-menuLink--10">ī���±׺���</a>
+
+
+
+
+
+
+
+
+
+
+					</p><span> </span></li>
+
+
+					<li class="default" id="special-menu--4"><p>
+
+
+
+
+								<a href="/CalendarView.nhn?clubid=27308868&amp;type=view&amp;registCalendar=true" target="cafe_main" onclick="goMenu(-4);" class="off" id="special-menuLink--4">ī�� Ķ����</a>
+
+
+
+
+
+
+
+
+
+					</p></li>
+
+			</ul>
+		</div>
+	</div>
+
+
+
+<script type="text/javascript">
+    var spMenu = [];
+
+    spMenu[0] = {menuid:0, menutype:''};
+
+    spMenu[1] = {menuid:-2, menutype:''};
+
+    spMenu[2] = {menuid:-10, menutype:''};
+
+    spMenu[3] = {menuid:-4, menutype:''};
+
+
+
+
+
+		function selectSpecialMenu(menuid)  {
+			for (var i=0; i<spMenu.length; i++) {
+				try {
+					$('special-menu-' + spMenu[i].menuid).className='default';
+					$('special-menuLink-' + spMenu[i].menuid).className='off';
+				} catch(e){}
+			}
+
+			try {
+				$('special-menu-' + menuid).className='selected';
+				$('special-menuLink-' + menuid).className='on';
+			} catch(e){}
+		}
+
+
+
+	function alertBadMenu() {
+		alert('���� ���� ���� �Խ����Դϴ�.');
+	}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="info-search" >
+
+
+
+
+				<div id="cafe-icoinfo">
+
+				</div>
+
+
+
+
+
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/URLEncodingMap_MS949-1545208501000-97750.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/URLEncoder-1545208501000-2121.js"></script>
+
+<script type="text/javascript">
+var searchParentFrame = null;
+function searchBoard()
+{
+	searchParentFrame = document.frmBoardSearch;
+
+ 	if (searchParentFrame.query.value.split(/[ \t]/g).join("") == "")
+    {
+    	alert("�˻�� �Է��ϼ���.");
+        searchParentFrame.query.focus();
+        return;
+    }
+
+    //CAFESUS-4750  ���� ��Ģ�� ����/�˾� ����
+    //var wordcheckframe = document.createElement("iframe");
+    //wordcheckframe.width = "0";
+    //wordcheckframe.height = "0";
+    //document.body.appendChild(wordcheckframe);
+    //wordcheckframe.src = "/SectionSearchWordCheck.nhn";
+    searchFrmAfter(searchParentFrame);
+
+    return;
+}
+
+function searchFrmAfter(frm)
+{
+    $("cafe_main").src = "/ArticleSearchList.nhn?search.clubid=27308868&search.searchBy=0&search.query=" + URLEncoder.encode(frm.query.value,"MS949");
+}
+</script>
+
+
+
+
+		<div id="cafe-search">
+			<form name="frmBoardSearch" action="" onsubmit="return false;" autocomplete="off">
+				<input title="ī���� �˻��� �Է�" type="text" name="query" style="ime-mode:active" id="topLayerQueryInput" onkeydown="if (event.keyCode == 13) {searchBoard();}">
+				<a href="#" onclick="searchBoard();return false;"><img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="42" height="21" alt="�˻�" class="btn-search-green"></a>
+			</form>
+		</div>
+
+
+
+
+<form name="pwmForm" method="POST" action="" target="">
+    <input type="hidden" name="ugcTypeName" value=""/>
+    <input type="hidden" name="prohibitWords" value=""/>
+</form>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div id="content-area">
+
+			<div id="group-area" class=" fl">
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/click/clickcr-1545208501000-6201.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/favorite/favorite_cafe-1545208501000-1385.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/lcslog-1545208501000-26709.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/tablet/Tablet-1545208501000-4233.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/tablet/TabletHandler-1545208501000-2403.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+var nsc = "cafe.mycafe";
+//]]>
+</script>
+
+<div class="cafe-info-action" id="cafe-info-action">
+
+
+
+
+
+			<div id="cafe-info-data">
+				<ul class="info-action-tab">
+					<li class="tit-info-on">
+						<p class="gm-tcol-t">ī������</p>
+					</li>
+					<li class="tit-action">
+						<p><a href="#" class="_rosRestrict" onclick="showMyAction();clickcr(this, 'cia.my', '', '', event);return false;">����Ȱ��</a></p>
+					</li>
+					<li class="tit-bookmark">
+
+
+
+						<a class="_rosRestrict" href="#" title="����ã�� ī�� ����" onClick="setupFavoriteCafe(false, false, 27308868);clickcr(this, 'cia.fav', '', '', event);return false;"><img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="27" height="28" alt="����ã�� ī�� ����" class="btn-bookmark-off" id="favoriteCafeInCafeInfo"></a>
+					</li>
+				</ul>
+				<div class="box-g">
+					<h4 class="d-none">ī������</h4>
+					<div class="ia-info-data" id="ia-info-data">
+						<ul>
+							<li class="gm-tcol-c">
+								<div class="ball"><img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="27" height="13" class="ico-manager" alt="�Ŵ���"></div>
+								<a href="/nchappyclub/member/web7905/article" target="_blank" class="id mlink gm-tcol-c" onclick="clickcr(this, 'cia*i.manager', '', '', event);">
+									<div class="ellipsis gm-tcol-c"><div class="ellipsis">����Ŭ��</div></div>
+								</a>
+							</li>
+							<li class="gm-tcol-c">
+								<div class="thm"><a href="/CafeHistoryView.nhn?clubid=27308868" class="gm-tcol-c" target="cafe_main" onclick="clickcr(this, 'cia*i.history', '', '', event); targetCleaner(this);">since 2014.05.22.</a></div>
+								<div class="info-view"><a href="#" onclick="cafeProfile();clickcr(this, 'cia*i.intro', '', '', event);return false;" class="u gm-tcol-c">ī���Ұ�</a></div>
+							</li>
+
+						</ul>
+					</div>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+checkHideRankingNotice();
+
+function checkHideRankingNotice(){
+	var rankCookie = document.cookie;
+	var startPoint = rankCookie.indexOf("rankingHidden=");
+	if(startPoint != -1){
+		var start = startPoint + 14;
+		var end = rankCookie.indexOf(";", start);
+		if(end == -1) end = rankCookie.length;
+		var value = rankCookie.substring(start, end);
+		value = decodeURIComponent(value);
+		if(value == '27308868') {
+			hideRankingNotice();
+		}
+	}
+}
+
+function hideRankingNotice() {
+	Element.hide("rankingNotice");
+	setHideCookie();
+}
+
+function setHideCookie(){
+	var expireDate = new Date();
+	expireDate.setDate(expireDate.getDate()+2);
+	document.cookie = "rankingHidden=27308868; expires="+expireDate.toGMTString();
+}
+
+function goRankingNoticeDetail() {
+	window.open("https://section.cafe.naver.com/cafe-home/cafes/rankings-introduction");
+}
+</script>
+
+					<div class="ia-info-data2">
+						<ul>
+
+
+
+
+									<li class="level-info border-sub">
+										<a href="#" class="gm-tcol-c" onclick="cafeRanking();clickcr(this, 'cia*i.grade', '', '', event);return false;">
+											<strong class="d-none">ī������</strong>
+											<span class="ico_rank rank4"></span><br><em>����4�ܰ�</em>
+										</a>
+									</li>
+
+
+							<li class="mem-cnt-info"  style="cursor:pointer;">
+								<strong class="d-none">ī��������</strong>
+
+
+										<a href="#" onclick="$('hiddenOpenMemberInfoLayer').style.display = '';" class="gm-tcol-c"><span class="ico"></span><br><em>252<img src="https://cafe.pstatic.net/cafe4/cafe/cafeinfo/ico_lock.gif" width="9" height="11" alt="������" class="ico_lock2"></em></a>
+
+
+
+
+								<div class="ly_info_dsc" style="font-weight:normal;top:31px;left:5px;display:none;" id="hiddenCafeApplyLayer">
+									<div class="cont cont_v1" style="width:60px">
+										<p><a href="/ManageJoinApplication.nhn?search.clubid=27308868" >���Դ��� <span>0</span></a></p>
+										<span class="tail" style="left:31px"></span>
+									</div>
+								</div>
+							</li>
+						</ul>
+
+						<div class="ly_info_dsc" style="top:31px;left:5px;display:none;" id="hiddenCafeDescLayer">
+							<div class="cont">
+								<p>�ʴ븦 ���ؼ���<br>������ �� �ִ� ������ī��</p>
+								<span class="tail" style="left:31px"></span>
+							</div>
+						</div>
+
+						<div class="ly_info_dsc" style="top:33px;right:29px;display:none;" id="hiddenOpenMemberInfoLayer">
+							<div class="cont cont_v2">
+								<p>�������� ������ ī��</p>
+								<span class="tail" style="right:3px"></span>
+							</div>
+							<a href="#" onclick="$('hiddenOpenMemberInfoLayer').style.display = 'none';" class="clse" role="button">�ݱ�</a>
+						</div>
+					</div>
+
+					<div class="ia-info-data3" id="cafePopularityLog">
+					</div>
+					<div class="ia-info-btn">
+						<ul class="ia-info-list">
+							<li>
+								<a href="#" onclick="inviteMember();clickcr(this, 'cia*i.invite', '', '', event);return false;" class="gm-tcol-c _rosRestrict">�ʴ�</a>
+							</li>
+							<li>
+								<a href="#" onclick="chatting(true);clickcr(this, 'cia*i.chat', '', '', event);return false;" class="gm-tcol-c _tabletRestrict(ä��)" target="_blank">ī�� ä��</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="box_g_b"></div>
+				<div class="cafe-write-btn">
+
+
+
+
+							<a href="#" class="_rosRestrict" onclick="joinCafe();return false;"><img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="171" height="34" alt="ī�� �����ϱ�" class="btn-join"></a>
+
+
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+			<div id="member-action-data" style="display:none">
+
+			</div>
+
+
+
+</div>
+
+<script type="text/javascript">
+
+	function writeBoard() {
+
+
+
+		var oMenu = oMenuMoveUpdater.current();
+		var bSupportTablet = Tablet.editing.JustAlert()
+			.check({
+				bAccessTabletPC : false,
+				bReadOnlyStatus : false,
+				bMarketBoard : oMenu.isMarketBoard(),
+				bStaffBoard : oMenu.isStaffBoard(),
+				bHasArticleForm : oMenu.hasArticleForm(),
+				bHasTemplate : oMenu.hasTemplate()
+			});
+
+		if (!bSupportTablet) {
+			return;
+		}
+
+		if (oMenu.isStaffBoard()) {
+			$("cafe_main").src = '/StaffArticleWrite.nhn?clubid=27308868&menuid=' + oMenu.nMenuId + '&boardtype=L&m=write';
+		} else {
+			$("cafe_main").src = '/ArticleWrite.nhn?clubid=27308868&menuid=' + oMenu.nMenuId + '&boardtype=L&m=write';
+		}
+    }
+	var isFolded = false;
+
+    // ī������ ����
+	function showCafeInfo() {
+		showPopularityLog();
+
+		Element.show("cafe-info-data");
+		Element.hide("member-action-data");
+
+		try{
+			var etc = {};
+			etc["sti"] = "cafe_infodata";
+			lcs_do(etc);
+		}catch(e) {}
+	}
+
+	showPopularityLog();
+
+    // ī�� �α⵵ �α� ����
+    function showPopularityLog() {
+		var ajax = new Ajax("/CafePopularityLogAjax.nhn?clubid=27308868&id=" + new Date().getTime(), {
+				suspend : "false",
+				onLoad : cafePopularityLogShipCB
+		});
+
+		ajax.request();
+    }
+
+	// ī�� �α⵵ �α� ��ȸ �ݹ�
+	function cafePopularityLogShipCB(res) {
+		if (res.status == 200) {
+			$("cafePopularityLog").innerHTML = res.responseText;
+		}
+	}
+
+	function showAppCafeDescView(onmouseover) {
+		if(onmouseover) {
+			$("cafePopularityLog").className = 'ia-info-data3 ly_on';
+			$("cafePopularityLog_info3").className = 'info3 ly_on';
+			$('appCafeInstallCountDescLayer').style.display = '';
+		} else {
+			$("cafePopularityLog").className = 'ia-info-data3';
+			$("cafePopularityLog_info3").className = 'info3';
+			$('appCafeInstallCountDescLayer').style.display = 'none';
+		}
+	}
+
+	// ���� Ȱ�� ����
+	function showMyAction()
+	{
+
+
+
+
+            joinCafe();
+
+
+	}
+
+	// ���� Ȱ������ ��ȸ �ݹ�
+	function cafeMemberShipCB(res){
+		if(res.status==200)
+		{
+			$("ia-action-data").innerHTML = res.responseText;
+		}
+	}
+
+
+	// ī������/ ���� Ȱ������ ����/��ġ��
+	function toggleIA()
+	{
+		if(isFolded)
+		{
+			$("ia-info-up-img").className = $("ia-info-up-img").className.replace("down","up");
+			$("ia-action-down-img").className = $("ia-action-down-img").className.replace("down","up");
+			Element.show("ia-info-data");
+
+
+			isFolded = false;
+		} else {
+			$("ia-info-up-img").className = $("ia-info-up-img").className.replace("up","down");
+			$("ia-action-down-img").className = $("ia-action-down-img").className.replace("up","down");
+			Element.hide("ia-info-data");
+
+
+			isFolded = true;
+		}
+	}
+
+	// ī���Ұ�
+	function cafeProfile()
+	{
+	    moveIframePage('/CafeProfileView.nhn?clubid=27308868');
+	}
+
+	// ī�� ��ŷ
+	function cafeRanking()
+	{
+	    moveIframePage('/CafeRankingCafeView.nhn?clubid=27308868');
+	}
+
+	// û�ҳ����ظ�ü ī�� ����
+	function teenagerHarmfulCafeNotice() {
+		window.open('http://terms.naver.com/entry.nhn?docId=72599');
+	}
+
+	// �ʴ�
+	function inviteMember()
+	{
+
+
+
+
+
+            joinCafe();
+
+
+	}
+
+	// �������� ����
+	function cafeMemberInfoEdit(event){
+		open_window("/CafeMemberInfo.nhn?clubid=27308868&memberid=", "popup", 500, 780, "toolbar=0,menubar=0,scrollbars=yes,resizable=yes");
+	}
+
+	// ���� ����
+	function openProfileEdit(){
+	    window.open("http://admin.blog.naver.com/AdminMain.nhn?blogId=&Redirect=Basicinfo", "profile");
+	}
+
+	// ī�� ��������
+	function showCafeMember()
+	{
+
+
+
+
+            joinCafe();
+
+
+	}
+
+	function joinCafeFromArticle() {
+		oBAStatSender.send([
+			{
+				eventType : cafe.BAStatEventType.PC_843_166
+			}
+		]);
+
+		$("cafeApply_check").submit();
+
+		return false;
+	}
+
+	function joinCafe(redirectUrl) {
+        var cafeApplycheckForm =  $("cafeApply_check");
+
+		oBAStatSender.send([
+			{
+				eventType : cafe.BAStatEventType.PC_758_167,
+				extra : {
+					cafe_id : '27308868'
+				}
+			}
+		]);
+
+	    if(typeof redirectUrl != "undefined") {
+            cafeApplycheckForm.redirectUrl.value = redirectUrl;
+		}
+
+        cafeApplycheckForm.submit();
+
+		return false;
+	}
+
+	// �������� ���� �˾�
+	function viewMyMemberLevel() {
+		open_window("/MemberLevelView.nhn?m=mylevelview&clubid=27308868", "mylevelview", 740, 498, "");
+	}
+
+</script>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/menu/Menu-1545208501000-4245.js"></script>
+
+
+<script type="text/javascript">
+    var oMenus = new Cafe.menu.Menus();
+    var oMenuMoveUpdater = new Cafe.menu.MenuMoveUpdater(oMenus);
+
+
+    [0, -10, -1, -2, -3, -15, -20, -4, -5, -25,-7].each(function(nMenuId) {
+        var oMenu = new Cafe.menu.Menu({
+            nMenuId : nMenuId,
+            bBadMenu : false,
+            sMenuType : "",
+            sBoardType : "L",
+            bHasArticleForm : false,
+            bHasTemplate : false
+        });
+
+        oMenus.add(oMenu);
+    });
+
+
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 42,
+        bBadMenu : false,
+        sMenuType : "B",
+        sBoardType : "L",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 43,
+        bBadMenu : false,
+        sMenuType : "B",
+        sBoardType : "L",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 23,
+        bBadMenu : false,
+        sMenuType : "F",
+        sBoardType : " ",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 25,
+        bBadMenu : false,
+        sMenuType : "B",
+        sBoardType : "I",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 26,
+        bBadMenu : false,
+        sMenuType : "B",
+        sBoardType : "I",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 27,
+        bBadMenu : false,
+        sMenuType : "B",
+        sBoardType : "I",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 28,
+        bBadMenu : false,
+        sMenuType : "B",
+        sBoardType : "I",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 29,
+        bBadMenu : false,
+        sMenuType : "B",
+        sBoardType : "I",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 24,
+        bBadMenu : false,
+        sMenuType : "F",
+        sBoardType : " ",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 41,
+        bBadMenu : false,
+        sMenuType : "B",
+        sBoardType : "L",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 40,
+        bBadMenu : false,
+        sMenuType : "B",
+        sBoardType : "Q",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 12,
+        bBadMenu : false,
+        sMenuType : "F",
+        sBoardType : " ",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 2,
+        bBadMenu : false,
+        sMenuType : "3",
+        sBoardType : "",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 10,
+        bBadMenu : false,
+        sMenuType : "A",
+        sBoardType : "L",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 22,
+        bBadMenu : false,
+        sMenuType : "E",
+        sBoardType : "E",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 21,
+        bBadMenu : false,
+        sMenuType : "E",
+        sBoardType : "E",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 11,
+        bBadMenu : false,
+        sMenuType : "M",
+        sBoardType : "M",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 13,
+        bBadMenu : false,
+        sMenuType : "F",
+        sBoardType : " ",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 1,
+        bBadMenu : false,
+        sMenuType : "B",
+        sBoardType : "L",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 16,
+        bBadMenu : false,
+        sMenuType : "B",
+        sBoardType : "L",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 17,
+        bBadMenu : false,
+        sMenuType : "B",
+        sBoardType : "L",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 18,
+        bBadMenu : false,
+        sMenuType : "B",
+        sBoardType : "L",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 14,
+        bBadMenu : false,
+        sMenuType : "F",
+        sBoardType : " ",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 19,
+        bBadMenu : false,
+        sMenuType : "B",
+        sBoardType : "L",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 20,
+        bBadMenu : false,
+        sMenuType : "B",
+        sBoardType : "L",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 15,
+        bBadMenu : false,
+        sMenuType : "F",
+        sBoardType : " ",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 5,
+        bBadMenu : false,
+        sMenuType : "B",
+        sBoardType : "L",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 6,
+        bBadMenu : false,
+        sMenuType : "B",
+        sBoardType : "Q",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 7,
+        bBadMenu : false,
+        sMenuType : "B",
+        sBoardType : "I",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 4,
+        bBadMenu : false,
+        sMenuType : "S",
+        sBoardType : "",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 39,
+        bBadMenu : false,
+        sMenuType : "B",
+        sBoardType : "L",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+    var oMenu = new Cafe.menu.Menu({
+        nMenuId : 8,
+        bBadMenu : false,
+        sMenuType : "S",
+        sBoardType : "",
+        bHasArticleForm : false,
+        bHasTemplate : false
+    });
+
+    oMenus.add(oMenu);
+
+
+    // �޴��� �̵�
+    // ���ǻ� �Ʒ� �޼ҵ��� Ư�� �޴��� Ŭ������ ��, 1. �ش� �޴��� Bold���� ó���� �ϰ�, 2. ������ �޴�(�����ȸ޴�, �⺻�޴� �)�� ���� ����, ���� Bold ó����
+    function goMenu(nMenuId)	{
+        // �޴��̵��ӵ��� ������ �ϱ� ���� ���� �޴��̵��� ������ ó��
+        setTimeout(function () {
+            oMenuMoveUpdater.update(nMenuId);
+        }, 1);
+    }
+
+	function toggleMenuGroup(gid) {
+		var toggleButton = $(gid + "btn");
+		if (toggleButton) {
+			if (toggleButton.className == "up-btn") {
+				toggleButton.className = "down-btn";
+			} else {
+				toggleButton.className = "up-btn"
+			}
+		}
+
+		if (!$(gid)) {
+			return false;
+		}
+
+		if ($(gid).style.display == 'none') {
+			Element.show(gid);
+		} else {
+			Element.hide(gid);
+		}
+
+		return false;
+	}
+
+    function showGroupNewImage(groupImageId) {
+        var welGroupImage = $(groupImageId);
+        if (typeof welGroupImage == 'undefined' ||  welGroupImage == null) {
+            return;
+        }
+		$(groupImageId).style.cssText = "display:inline-block !important;";
+    }
+</script>
+<div id="cafe-menu">
+	<div class="box-g-t"></div>
+	<div class="box-g-m">
+
+
+
+
+		<ul class="cafe-menu-list">
+			<li>
+				<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=27308868&search.boardtype=L" target="cafe_main"  onclick="goMenu('0');clickcr(this, 'mnu.all','','',event);" class="gm-tcol-c" id="menuLink0">��ü�ۺ���</a>
+
+
+
+						<span class="gm-tcol-c p11" style="padding-right:2px;">(<strong>4870</strong>)</span>
+
+
+			</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</ul>
+
+
+
+		<div class="cafe-menu-space"></div>
+		<ul class="cafe-menu-list">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt="">
+					<a href="/ArticleList.nhn?search.clubid=27308868&search.menuid=42&search.boardtype=L" target="cafe_main"  onclick="goMenu('42');clickcr(this, 'mnu.normal','','',event);" class="gm-tcol-c " id="menuLink42">
+						��������
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt="">
+					<a href="/ArticleList.nhn?search.clubid=27308868&search.menuid=43&search.boardtype=L" target="cafe_main"  onclick="goMenu('43');clickcr(this, 'mnu.normal','','',event);" class="gm-tcol-c " id="menuLink43">
+						������Ÿ��
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</ul>
+		<div class="cafe-menu-tit">
+
+
+
+					<h3><span class="gm-tcol-t"  title="�ΰ��ڷ���-�ѱ�">&#47196;&#44256;&#51088;&#47308;&#49892;-&#54620;&#44544;</span></h3>
+
+
+		</div>
+
+		<ul class="cafe-menu-list" id="group23" style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-photo" alt="">
+					<a href="/ArticleList.nhn?search.clubid=27308868&search.menuid=25&search.boardtype=I" target="cafe_main"  onclick="goMenu('25');clickcr(this, 'mnu.pic','','',event);" class="gm-tcol-c " id="menuLink25">
+						�� �� �� �ΰ�
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-photo" alt="">
+					<a href="/ArticleList.nhn?search.clubid=27308868&search.menuid=26&search.boardtype=I" target="cafe_main"  onclick="goMenu('26');clickcr(this, 'mnu.pic','','',event);" class="gm-tcol-c " id="menuLink26">
+						�� �� �� �ΰ�
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-photo" alt="">
+					<a href="/ArticleList.nhn?search.clubid=27308868&search.menuid=27&search.boardtype=I" target="cafe_main"  onclick="goMenu('27');clickcr(this, 'mnu.pic','','',event);" class="gm-tcol-c " id="menuLink27">
+						�� �� �� �ΰ�
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-photo" alt="">
+					<a href="/ArticleList.nhn?search.clubid=27308868&search.menuid=28&search.boardtype=I" target="cafe_main"  onclick="goMenu('28');clickcr(this, 'mnu.pic','','',event);" class="gm-tcol-c " id="menuLink28">
+						�� �� �� �ΰ�
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-photo" alt="">
+					<a href="/ArticleList.nhn?search.clubid=27308868&search.menuid=29&search.boardtype=I" target="cafe_main"  onclick="goMenu('29');clickcr(this, 'mnu.pic','','',event);" class="gm-tcol-c " id="menuLink29">
+						�� �� �ΰ�
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</ul>
+		<div class="cafe-menu-tit">
+
+
+
+					<h3><span class="gm-tcol-t"  title="�ΰ��ڷ���-����">&#47196;&#44256;&#51088;&#47308;&#49892;-&#50689;&#47928;</span></h3>
+
+
+		</div>
+
+		<ul class="cafe-menu-list" id="group24" style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt="">
+					<a href="/ArticleList.nhn?search.clubid=27308868&search.menuid=41&search.boardtype=L" target="cafe_main"  onclick="goMenu('41');clickcr(this, 'mnu.normal','','',event);" class="gm-tcol-c " id="menuLink41">
+						�����ΰ�
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-kin" alt="">
+					<a href="/ArticleList.nhn?search.clubid=27308868&search.menuid=40&search.boardtype=Q" target="cafe_main"  onclick="goMenu('40');clickcr(this, 'mnu.qna','','',event);" class="gm-tcol-c " id="menuLink40">
+						���� �ΰ� ��û����
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</ul>
+		<div class="cafe-menu-tit">
+
+
+
+					<h3><span class="gm-tcol-t"  title="�ݰ����ϴ�">&#48152;&#44049;&#49845;&#45768;&#45796;</span></h3>
+
+
+		</div>
+
+		<ul class="cafe-menu-list" id="group12" style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt="">
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-book" alt="">
+					<a href="/nchappyclub/book4606603" target="_top"  onclick="clickcr(this, 'mnu.book','','',event);" class="gm-tcol-c " id="menuLink2">
+						ī��ȸĢ
+					</a>
+
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+						<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt="">
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-attendance" alt="">
+					<a href="/AttendanceView.nhn?search.clubid=27308868&search.menuid=10" target="cafe_main"  onclick="goMenu('10');clickcr(this, 'mnu.attend','','',event);" class="gm-tcol-c " id="menuLink10">
+						�⼮ �ߵ��� ��~!!
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+						<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt="">
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-simple" alt="">
+					<a href="/SimpleArticleList.nhn?search.clubid=27308868&search.menuid=22&search.moreDirection=next" target="cafe_main"  onclick="goMenu('22');clickcr(this, 'mnu.simple','','',event);" class="gm-tcol-c " id="menuLink22">
+						�����ձ�~@@
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+						<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt="">
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-simple" alt="">
+					<a href="/SimpleArticleList.nhn?search.clubid=27308868&search.menuid=21&search.moreDirection=next" target="cafe_main"  onclick="goMenu('21');clickcr(this, 'mnu.simple','','',event);" class="gm-tcol-c " id="menuLink21">
+						�����߾���
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+						<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt="">
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-memo" alt="">
+					<a href="/MemoList.nhn?search.clubid=27308868&search.menuid=11" target="cafe_main"  onclick="goMenu('11');clickcr(this, 'mnu.memo','','',event);" class="gm-tcol-c " id="menuLink11">
+						������
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</ul>
+		<div class="cafe-menu-tit">
+
+
+
+					<h3><span class="gm-tcol-t"  title="����&amp;�̺�Ʈ">&#44277;&#51648;&amp;&#51060;&#48292;&#53944;</span></h3>
+
+
+		</div>
+
+		<ul class="cafe-menu-list" id="group13" style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+						<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt="">
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt="">
+					<a href="/ArticleList.nhn?search.clubid=27308868&search.menuid=1&search.boardtype=L" target="cafe_main"  onclick="goMenu('1');clickcr(this, 'mnu.normal','','',event);" class="gm-tcol-c " id="menuLink1">
+						��NC����Ŭ��������
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+						<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt="">
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt="">
+					<a href="/ArticleList.nhn?search.clubid=27308868&search.menuid=16&search.boardtype=L" target="cafe_main"  onclick="goMenu('16');clickcr(this, 'mnu.normal','','',event);" class="gm-tcol-c " id="menuLink16">
+						������ �̺�Ʈ
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+						<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt="">
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt="">
+					<a href="/ArticleList.nhn?search.clubid=27308868&search.menuid=17&search.boardtype=L" target="cafe_main"  onclick="goMenu('17');clickcr(this, 'mnu.normal','','',event);" class="gm-tcol-c " id="menuLink17">
+						������ �̺�Ʈ
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+						<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt="">
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt="">
+					<a href="/ArticleList.nhn?search.clubid=27308868&search.menuid=18&search.boardtype=L" target="cafe_main"  onclick="goMenu('18');clickcr(this, 'mnu.normal','','',event);" class="gm-tcol-c " id="menuLink18">
+						�̺�Ʈ ��ǥ~��
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</ul>
+		<div class="cafe-menu-tit">
+
+
+
+					<h3><span class="gm-tcol-t"  title="������ NC��ȭ��">&#50668;&#44592;&#45716; NC&#48177;&#54868;&#51216;</span></h3>
+
+
+		</div>
+
+		<ul class="cafe-menu-list" id="group14" style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+						<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt="">
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt="">
+					<a href="/ArticleList.nhn?search.clubid=27308868&search.menuid=19&search.boardtype=L" target="cafe_main"  onclick="goMenu('19');clickcr(this, 'mnu.normal','','',event);" class="gm-tcol-c " id="menuLink19">
+						�ߺ��� ��ȭ���ҽ�
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+						<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt="">
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt="">
+					<a href="/ArticleList.nhn?search.clubid=27308868&search.menuid=20&search.boardtype=L" target="cafe_main"  onclick="goMenu('20');clickcr(this, 'mnu.normal','','',event);" class="gm-tcol-c " id="menuLink20">
+						������ �ҽ���
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</ul>
+		<div class="cafe-menu-tit">
+
+
+
+					<h3><span class="gm-tcol-t"  title="����Ŭ�� �̾߱� ����">&#54644;&#54588;&#53364;&#47101; &#51060;&#50556;&#44592; &#44277;&#44036;</span></h3>
+
+
+		</div>
+
+		<ul class="cafe-menu-list" id="group15" style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+						<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt="">
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt="">
+					<a href="/ArticleList.nhn?search.clubid=27308868&search.menuid=5&search.boardtype=L" target="cafe_main"  onclick="goMenu('5');clickcr(this, 'mnu.normal','','',event);" class="gm-tcol-c " id="menuLink5">
+						����Ŭ�� ���ٹ�
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+						<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt="">
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-kin" alt="">
+					<a href="/ArticleList.nhn?search.clubid=27308868&search.menuid=6&search.boardtype=Q" target="cafe_main"  onclick="goMenu('6');clickcr(this, 'mnu.qna','','',event);" class="gm-tcol-c " id="menuLink6">
+						Q&A�Խ���
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+						<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt="">
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-photo" alt="">
+					<a href="/ArticleList.nhn?search.clubid=27308868&search.menuid=7&search.boardtype=I" target="cafe_main"  onclick="goMenu('7');clickcr(this, 'mnu.pic','','',event);" class="gm-tcol-c " id="menuLink7">
+						�����Խ���
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</ul>
+		<div id="gend15" class="cafe-menu-space"></div>
+		<ul class="cafe-menu-list">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<li>
+
+					<img src="https://cafe.pstatic.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt="">
+					<a href="/ArticleList.nhn?search.clubid=27308868&search.menuid=39&search.boardtype=L" target="cafe_main"  onclick="goMenu('39');clickcr(this, 'mnu.normal','','',event);" class="gm-tcol-c " id="menuLink39">
+						������ �̰�
+					</a>
+
+
+
+
+
+
+
+				</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+
+		<div id="menu_restirction_tip" class="appr_rst_ly" style="position:absolute;display:none;">
+			<p>�� �Խ����� ī�� �������� ������<br />���ѵǾ����ϴ�.</p>
+		</div>
+
+	<div class="box-g-b"></div>
+</div>
+
+
+
+
+		<script type="text/javascript">
+            function exposeToolTip(tagElement) {
+                var elParent = tagElement.parentNode,
+                    nTop = Element.realPos(elParent).top + elParent.offsetHeight,
+                    nLeft = Element.realPos($("cafe-menu")).left,
+                    elLayer = $("menu_restirction_tip");
+
+                if(elLayer.parentNode != document.body) {
+                    document.body.appendChild(elLayer);
+                }
+
+                Element.setCSS(elLayer, {
+                    "top" : nTop + "px",
+                    "left" : nLeft + "px",
+                    "display" : "block"
+                });
+            }
+
+            function closeToolTop() {
+                var fktip = document.getElementById("menu_restirction_tip");
+                fktip.style.display = "none";
+            }
+		</script>
+
+
+
+
+
+				<ul class="com">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="box-w">
+	<div id="recent-reply">
+		<div class="group-tit">
+			<h4 class="tcol-t">�ֱ� ���ۤ�����</h4>
+		</div>
+		<ul class="group-list" id="first-reply-page">
+
+
+				<li>
+					<div class="ball"><img src="https://cafe.pstatic.net/cafe4/ico-blank.gif" width="3" height="3" alt="" class="tcol-c"></div>
+
+					<a href="/ArticleRead.nhn?clubid=27308868&amp;articleid=5059" target="cafe_main" onclick="targetCleaner(this);" class="tcol-c tlink" title="��0/��1">
+
+
+							<div class="ellipsis tcol-c">�� ���� �ѱ� ���� ó��, �ᱹ '�н� ����' ����</div></a>
+				</li>
+
+				<li>
+					<div class="ball"><img src="https://cafe.pstatic.net/cafe4/ico-blank.gif" width="3" height="3" alt="" class="tcol-c"></div>
+
+					<a href="/ArticleRead.nhn?clubid=27308868&amp;articleid=4970" target="cafe_main" onclick="targetCleaner(this);" class="tcol-c tlink" title="��0/��1">
+
+
+							<div class="ellipsis tcol-c">��������õ �޾ƺ� �� ��������? </div></a>
+				</li>
+
+				<li>
+					<div class="ball"><img src="https://cafe.pstatic.net/cafe4/ico-blank.gif" width="3" height="3" alt="" class="tcol-c"></div>
+
+					<a href="/ArticleRead.nhn?clubid=27308868&amp;articleid=4394" target="cafe_main" onclick="targetCleaner(this);" class="tcol-c tlink" title="��0/��1">
+
+
+							<div class="ellipsis tcol-c">���μ� ������</div></a>
+				</li>
+
+				<li>
+					<div class="ball"><img src="https://cafe.pstatic.net/cafe4/ico-blank.gif" width="3" height="3" alt="" class="tcol-c"></div>
+
+					<a href="/ArticleRead.nhn?clubid=27308868&amp;articleid=4395" target="cafe_main" onclick="targetCleaner(this);" class="tcol-c tlink" title="��0/��1">
+
+
+							<div class="ellipsis tcol-c">������ �����̰� ����</div></a>
+				</li>
+
+				<li>
+					<div class="ball"><img src="https://cafe.pstatic.net/cafe4/ico-blank.gif" width="3" height="3" alt="" class="tcol-c"></div>
+
+					<a href="/ArticleRead.nhn?clubid=27308868&amp;articleid=4396" target="cafe_main" onclick="targetCleaner(this);" class="tcol-c tlink" title="��0/��1">
+
+
+							<div class="ellipsis tcol-c">�̱� ���� �̹��� ��ȯ</div></a>
+				</li>
+
+		</ul>
+
+			<ul class="group-list" id="second-reply-page" style="display:none;">
+
+					<li>
+						<div class="ball"><img src="https://cafe.pstatic.net/cafe4/ico-blank.gif" width="3" height="3" alt="" class="tcol-c"></div>
+
+						<a href="/ArticleRead.nhn?clubid=27308868&amp;articleid=4397" target="cafe_main" class="tcol-c tlink" title="��0/��1">
+
+
+								<div class="ellipsis tcol-c">���� ������ ���� �ýŹ߰�</div></a>
+					</li>
+
+					<li>
+						<div class="ball"><img src="https://cafe.pstatic.net/cafe4/ico-blank.gif" width="3" height="3" alt="" class="tcol-c"></div>
+
+						<a href="/ArticleRead.nhn?clubid=27308868&amp;articleid=4398" target="cafe_main" class="tcol-c tlink" title="��0/��1">
+
+
+								<div class="ellipsis tcol-c">������ ����</div></a>
+					</li>
+
+					<li>
+						<div class="ball"><img src="https://cafe.pstatic.net/cafe4/ico-blank.gif" width="3" height="3" alt="" class="tcol-c"></div>
+
+						<a href="/ArticleRead.nhn?clubid=27308868&amp;articleid=4399" target="cafe_main" class="tcol-c tlink" title="��0/��1">
+
+
+								<div class="ellipsis tcol-c">��ȸ ƯȰ�� ���ظ� 62��</div></a>
+					</li>
+
+					<li>
+						<div class="ball"><img src="https://cafe.pstatic.net/cafe4/ico-blank.gif" width="3" height="3" alt="" class="tcol-c"></div>
+
+						<a href="/ArticleRead.nhn?clubid=27308868&amp;articleid=4401" target="cafe_main" class="tcol-c tlink" title="��0/��1">
+
+
+								<div class="ellipsis tcol-c">���� ����ŷ ����</div></a>
+					</li>
+
+					<li>
+						<div class="ball"><img src="https://cafe.pstatic.net/cafe4/ico-blank.gif" width="3" height="3" alt="" class="tcol-c"></div>
+
+						<a href="/ArticleRead.nhn?clubid=27308868&amp;articleid=4402" target="cafe_main" class="tcol-c tlink" title="��0/��1">
+
+
+								<div class="ellipsis tcol-c">���� ���� ������ ���� �ý� �ΰ�</div></a>
+					</li>
+
+			</ul>
+
+			<div class="pocket_nav p11">
+				<span id="pre-reply-disable" class="tcol-c filter-50 display-inblock"><span class="blind">�ֱ� ����,���� ����</span>����</span>
+				<span id="pre-reply-useable"  style="display:none;"><a href="javascript:toggleFirstReplyList()" class="tcol-c display-inblock"><span class="blind">�ֱ� ����,���� ����</span>����</a></span>
+				<span class="tcol-c filter-25 display-inblock">��</span>
+				<span id="next-reply-useable"><a href="javascript:toggleSecondReplyList()" class="tcol-c display-inblock"><span class="blind">�ֱ� ����,���� ����</span>����</a></span>
+				<span id="next-reply-disable" style="display:none;" class="tcol-c filter-50 display-inblock"><span class="blind">�ֱ� ����,���� ����</span>����</span>
+			</div>
+
+	</div>
+</li>
+
+
+
+<script type="text/javascript">
+  function toggleFirstReplyList()
+  {
+     if($("first-reply-page").style.display=="none")
+     {
+	  Element.show("first-reply-page");
+	  Element.hide("second-reply-page");
+	  Element.show("pre-reply-disable");
+	  Element.show("next-reply-useable");
+	  Element.hide("pre-reply-useable");
+	  Element.hide("next-reply-disable");
+	}
+  }
+
+  function toggleSecondReplyList()
+  {
+     if($("second-reply-page").style.display=="none")
+     {
+	  Element.show("second-reply-page");
+  	  Element.hide("first-reply-page");
+  	  Element.show("pre-reply-useable");
+	  Element.show("next-reply-disable");
+	  Element.hide("pre-reply-disable");
+	  Element.hide("next-reply-useable");
+
+	}
+  }
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+				</ul>
+				<div class="banner_chatbot">
+					<a href="https://talk.naver.com/ct/wc63k2" class="chatbot"><img src="https://ssl.pstatic.net/static/cafe/banner_chatbot.png" width="171" height="55" alt="�ñ��Ѱ� ���� �� ī�� ����Ʈ��"></a>
+				</div>
+			</div>
+
+
+			<div id="main-area" class=" fr">
+				<input id="gateOpen" type="hidden" value="1" />
+				<input id="searchviewtype" type="hidden" value="title" />
+
+
+
+
+
+
+
+
+
+
+
+							<iframe name="cafe_main" id="cafe_main" title="ī�� ����" src="about:blank" width="773" height="100%" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" allowtransparency="true"  allowfullscreen></iframe>
+
+							<script type="text/javascript">
+                                $("cafe_main").src = "//cafe.naver.com/ArticleRead.nhn?articleid=4476&sc=db8b34a6c15b22da362c2799ce9ea1956bccf0d9&query=%C5%C2%B1%D8%B1%E2&where=search&clubid=27308868&tc=naver_search";
+							</script>
+
+
+
+
+
+
+
+
+
+
+
+
+			</div>
+
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+        <div id="cafe-footer">
+            <p class="cafe-name m-tcol-c">���̹� ī�� <span class="m-tcol-p">NC����Ŭ��</span></p>
+        </div>
+
+
+
+
+
+		<div id="hbeanLeverageLayer" style="z-index:101; position:absolute; top:100px; right:10px;"></div>
+	</div>
+
+	<a href="#" class="blind" onfocus="var t=document.getElementById('u_skip');t.tabIndex=-1;t.focus();return false" style="visibility:visible">������ ����</a>
+</div>
+
+
+
+
+
+
+
+<input type="hidden" id="questionct" value="block"/>
+<iframe name="cafe_check" id="cafe_check" width="0" height="0" frameborder="0" title="ī��Ȯ��"></iframe>
+<form id="cafeApply_check" action="/CafeApplyCheck.nhn" method="post" target="cafe_check" style="margin:0;padding:0;">
+<input type="hidden" name="clubid" value="27308868"/>
+<input type="hidden" name="email" value=""/>
+<input type="hidden" name="alreadyMemberPopup" value="true"/>
+<input type="hidden" id="redirectwrite" name="redirectwrite" value=""/>
+<input type="hidden" id="redirectUrl" name="redirectUrl" value=""/>
+</form>
+<form name="answerSaveFrm" style="display:none;">
+</form>
+<form name="nicknameSaveFrm">
+<input type="hidden" id="cafeTempApplyNickname" name="cafeTempApplyNickname" value="" />
+</form>
+
+
+
+
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/lib/nanoajax/nanoajax.min-1545208501000-685.js" charset="UTF-8"></script>
+
+<script type="text/javascript">
+
+    setMinSize(773, -1);
+    setMaxSize(773, -1);
+
+
+    function moveIframePage(url) {
+        $("cafe_main").src = url;
+    }
+
+
+
+    function suggestJoin() {
+
+
+        var clubname = "NC����Ŭ��";
+        if (confirm('ī�������� �̿��� �� �ִ� �����Դϴ�.\n' + clubname.replace(/&lt;/g, "<").replace(/&gt;/g, ">") + ' ī�信 �����Ͻðڽ��ϱ�?')) {
+            joinCafe();
+        }
+    }
+
+
+
+
+</script>
+
+
+<script type="text/javascript">
+    var oPowerCafeNoticeLayer = new PowerCafeNoticeLayer({
+        aNotices : [
+            {'name' : 'powerCafeNotice', 'show' : false},
+            {'name' : 'powerCafeCandidateNotice', 'show' : false}
+        ]
+    });
+</script>
+
+
+
+<link rel="stylesheet" href="/static/css/main/css/ip_layer_2-1545208501000-2931.css" type="text/css">
+
+
+<script type="text/javascript">
+	function openLoginLayer() {
+		var loginCheckOk = "https://cafe.naver.com/LoginCheck.nhn?m=login";
+		checkFrame.location.replace("https://nid.naver.com/nidlogin.login?mode=form&svctype=40960&id=&url="+loginCheckOk);
+
+
+		var layerScrollTop = parent.document.getElementsByTagName('HTML')[0].scrollTop;
+        var layerClientHeight = parent.document.getElementsByTagName('HTML')[0].clientHeight;
+        var layerPosition = layerScrollTop + (layerClientHeight * 0.5);
+        document.getElementById("login_layer").style.top = layerPosition + "px";
+
+		document.getElementById("login_layer_bg").style.display = "";
+		document.getElementById("login_layer").style.display = "";
+    	document.getElementById("login_layer").focus();
+	}
+
+	function closeLoginLayer() {
+		document.getElementById("login_layer_bg").style.display = "none";
+	    document.getElementById("login_layer").style.display = "none";
+	}
+</script>
+<div id="login_layer_bg" style="z-index:100;display:none;position:absolute;width:100%;height:3800px;top:0px;left:0px;background-color:GRAY;filter:alpha(opacity=20);-moz-opacity:0.2;">
+  <iframe id="login_layer_bg_iframe" frameborder="0" style="position:absolute;top:0px;left:0px;width:100%;height:3800px;background-color:GRAY;filter:alpha(opacity=20);-moz-opacity:0.2;" title="�α��ο���"></iframe>
+</div>
+<div id="login_layer" class="layerpopup" style="z-index:1001; width:394px; top:400px; left:35%; display:none;">
+  <div class="shadow1">
+  <div class="shadow1_side">
+		<div class="shadow2">
+        <div class="shadow2_side">
+			<div class="shadow3">
+	        <div class="shadow3_side">
+
+			<div class="border_type">
+				<div class="logbox_wrap">
+
+					<p class="notice">ȸ������ ������ ������ �̿��� ���� <strong>���й�ȣ�� Ȯ���� �ּ���.</strong></p>
+
+	           		<p class="notice02" id="layerd_notice01" style="display:none;">IP�� ���� �����Ǵ� ��Ʈ��ũ ȯ�濡�� �α����ϴ� ���� <br><strong>IP������ ����</strong> �� �̿��Ͻñ� �ٶ��ϴ�.</p>
+					<p class="notice02">�ٽ� �ѹ� <strong>���й�ȣ Ȯ��</strong> �Ͻø� �̿����� ȭ������ ���ư���, �ۼ� ���̴�<br>������ ���������� ���� �Ǵ� �����Ͻ� �� �ֽ��ϴ�.</p>
+
+					<a href="javascript:closeLoginLayer();" class="closelayer" role="button"><img src="https://ssl.pstatic.net/static/ws/btn_close.gif" alt="�ݱ�" width="15" height="14"></a>
+	           		<div class="frame_wrap type03"><iframe id="checkFrame" name="checkFrame" width="350" height="163" frameborder="0"  scrolling="no" marginheight="0" marginwidth="0" title="��������"></iframe></div>
+
+				</div>
+			</div>
+
+          	</div>
+			</div>
+        </div>
+		</div>
+  </div>
+  </div>
+</div>
+
+
+<script type="text/javascript">
+	function makeReturnUrl(iframeUrl) {
+		iframeUrl = iframeUrl.replace('https://cafe.naver.com', "");
+		var returnUrl = "https://cafe.naver.com/nchappyclub.cafe?iframe_url=" + URLEncoder.encode(iframeUrl,"MS949");
+		returnUrl = URLEncoder.encode(returnUrl,"MS949");
+		return returnUrl;
+	}
+
+	function openWindow(target) {
+
+		var centerWidth = (window.screen.width - 450) / 2;
+	    var centerHeight = (window.screen.height - 500) / 2;
+
+	    window.open(target, '_blank', 'width=440,height=500' + ',left=' + centerWidth +
+		        ',top=' + centerHeight + ',status=no,scrollbars=no,resizable=no,menubar=no,toolbar=no,location=no');
+	}
+
+	function openSigningLayer(target) {
+		var frame = document.getElementById('addressAuthFrame');
+
+		frame.contentWindow.location.href = target;
+
+
+		var layerScrollTop = parent.document.getElementsByTagName('HTML')[0].scrollTop;
+		var layerClientHeight = parent.document.getElementsByTagName('HTML')[0].clientHeight;
+
+		var layerPosition =  layerScrollTop + (layerClientHeight * 0.2);
+
+        document.getElementById("signing_layer").style.top = layerPosition + "px";
+
+        document.getElementById("signing_layer_bg").style.display = "";
+		document.getElementById("signing_layer").style.display = "";
+    	document.getElementById("signing_layer").focus();
+
+	}
+
+	function closeSigningLayer() {
+		document.getElementById("signing_layer_bg").style.display = "none";
+	    document.getElementById("signing_layer").style.display = "none";
+	}
+</script>
+
+
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/lib/cafe/jindo1/OneToOneChatLauncher-1545208501000-1422.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/cafe_ui-1554190093000-18713.js"></script>
+
+
+
+
+
+
+
+
+
+        <script type="text/javascript" src="/static/js/mycafe/javascript/widget/Clock-1545208501000-168726.js" charset="UTF-8"></script>
+
+
+
+
+<script type="text/javascript">
+document.domain = "naver.com";
+
+function notiAlert(frmStr)
+{
+    open_window("", frmStr, 100, 100, "");
+    var frm = eval("document." + frmStr);
+    frm.target = frmStr;
+    try{
+        frm.submit();
+    }catch(e){}
+}
+
+
+
+
+
+
+
+
+
+function visit() {
+
+
+	try{
+		var ajax = new Ajax("/MyCafeVisit.nhn", {
+			suspend : "true",
+			method : "POST",
+			params : { "clubid":27308868,"usingCounter":false,"ceremonyCheckNeeded":false },
+			onLoad : cafeVisitCB
+		});
+		ajax.request();
+	}catch(e){
+		JEagleEyeClient.raiseError(e, this, {
+    		message : "MyCafeVisit.nhn - failed:" + 27308868
+    	});
+	}
+
+
+
+}
+function cafeVisitCB(res) {
+	if(res.status==200) {
+		try{
+
+			var counter = eval('(' + res.responseText + ')');
+
+			if(counter == null || counter == 'undefined') {
+				return false;
+			}
+
+
+
+
+				if(counter.visitEventResult != null && counter.visitEventResult.win == 'true') {
+					open_window('/CafeEventPop.nhn?clubid=27308868&eventtype=2&eventresult='+counter.visitEventResult.condition+'&eventarticle='+counter.visitEventResult.eventArticleid, 'cafe_event_popup', 330, 250);
+				}
+				if(counter.ceremonyPassed == 'true') {
+					open_window("/CafeCeremonyProcess.nhn?clubid=27308868&m=pass","cafe_ceremony_pass", 450, 200);
+				}
+
+
+			if(counter.notiList != null) {
+				for (var i = 0; i < counter.notiList.length; i++) {
+					if (counter.notiList[i].exposeAll == 'true' || counter.notiList[i].exposeCafe == 'true') {
+						document.notifrm.action = counter.notiList[i].param2;
+						document.notifrm.noticode.value = counter.notiList[i].noticode;
+						document.notifrm.comment.innerText = counter.notiList[i].message;
+
+						notiAlert('notifrm');
+					}
+				}
+			}
+		}catch(e){
+			JEagleEyeClient.raiseError(e, this, {
+        		message : "response:" + res.responseText}
+        	);
+		}
+	}
+}
+
+LH.add("visit()");
+
+Function.prototype.bind = function(){
+    var f = this, a = $A(arguments), object = a.shift();
+    return function(){
+        f.apply(object, a.concat($A(arguments)));
+    }
+};
+
+function callAppView(componentid, appId) {
+    var ajax = new Ajax("/AppCafeViewAjax.nhn?clubid=27308868&appId="+appId, {
+        suspend : "true",
+        onLoad : appViewCallBack.bind(window,componentid,appId)
+    });
+    ajax.request();
+}
+
+
+function appViewCallBack(componentid, appId, res) {
+    $(componentid).innerHTML = '';
+    $(componentid).innerHTML = res.responseText;
+
+    try{
+        parentResizeIframe('cafe_main');
+    }catch(e){}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LH.add("callMemberNews('visit');");
+LH.add("parentResizeIframe('cafe_main')");
+</script>
+
+
+
+<form name="notifrm" method="post" action="">
+    <input type="hidden" name="clubid" value="27308868">
+    <input type="hidden" name="noticode" value="">
+    <textarea name="comment" style="display: none;" title="���� �˾�"></textarea>
+</form>
+<script type="text/javascript">
+    oOneToOneChatLauncher.setIsCafeMember(false);
+
+	function initAutoAndRight() {
+		// AjaxUI
+		// �ڵ���ó ������ ���뿩�θ� �ι�° �Ķ����Ϳ� �����մϴ�.
+		AutoSourcing.init( 'post_%id%' , false );
+
+		if (false==false) {
+			blockMouseRight();
+		}
+	}
+	LH.add( "initAutoAndRight()" );
+
+
+
+    if ($Agent().IE) {
+        Ajax.initFlash("/common/flash/ajax.swf");
+    }
+</script>
+<script type="text/javascript">
+	// CAFESUS-7781 by laziel
+	var goFitter;
+	var gnFitted = 0;
+
+	function fitFrame(){
+		if(gnFitted < 10){ // 0.5�ʾ� 10ȸ
+			parentResizeIframe('cafe_main');
+			goFitter = window.setTimeout('fitFrame()', 500);
+			gnFitted++;
+		} else {
+			stopFitFrame();
+		}
+	}
+
+	function stopFitFrame(){
+		if(goFitter){
+			Event.unregister(window, 'load', fitFrame);
+			window.clearTimeout(goFitter);
+			goFitter = gnFitted = null;
+		}
+	}
+
+	Event.register(window, 'load', fitFrame);
+	Event.register(window, 'unload', stopFitFrame);
+
+	var bTablet = false;
+	var oTabletHandler = new TabletHandler(bTablet);
+
+
+var cafenameTitle = "NC����Ŭ��";
+LH.add(changeTitle(cafenameTitle + " : " +  "���̹� ī��"));
+LH.add(initTopLayerQuery());
+
+
+
+</script>
+
+
+
+
+<script type="text/javascript">
+
+
+
+
+	function showDenyNamelessLayer() {
+
+		var layerScrollTop = document.getElementsByTagName('HTML')[0].scrollTop;
+		var layerClientHeight = document.getElementsByTagName('HTML')[0].clientHeight;
+		var layerPosition = layerScrollTop + (layerClientHeight * 0.5);
+		document.getElementById("denyNamelessLayer").style.top = layerPosition + "px";
+		document.getElementById("denyNamelessLayer").style.display = "";
+	}
+
+
+
+function hideDenyNamelessLayer() {
+	document.getElementById("denyNamelessLayer").style.display = "none";
+}
+
+function redirectToCertPage() {
+	toCertPage(encodeURIComponent(document.location.href), encodeURIComponent('https://cafe.naver.com/nchappyclub'));
+}
+</script>
+<div id="denyNamelessLayer" class="cafetype_layer2" style="width:356px;top:0px;left:440px;margin:0;display:none;">
+	<img src="https://cafe.pstatic.net/img/realname/ico_layer.gif" width="25" height="24" alt="">
+	<h3><span>NC����Ŭ��</span> ī����<br>�Ǹ� Ȯ�� ȸ���� ���� �ް� �ֽ��ϴ�.</h3>
+	<p class="layer_txt">ī�信 ���� �Ͻ÷��� �Ǹ� Ȯ���� ���ּ���.</p>
+	<div class="btn_box">
+		<a href="#" onclick="hideDenyNamelessLayer(); return false;"><img src="https://cafe.pstatic.net/img/realname/btn_clse_lay.gif" width="47" height="26" alt="�ݱ�"></a> <a href="#" onclick="redirectToCertPage();"><img src="https://cafe.pstatic.net/img/realname/btn_cfm_lay.gif" width="105" height="26" alt="�Ǹ� Ȯ�� �ϱ�"></a>
+	</div>
+	<a href="#" onclick="hideDenyNamelessLayer(); return false;" class="btn_close" role="button"><img src="https://cafe.pstatic.net/img/btn_close_layer3.gif" width="19" height="19" alt="�ݱ�"></a>
+	<iframe frameborder="0" scrolling="no" style="width:400px;" title="��������"></iframe>
+</div>
+</body>
+</html>
